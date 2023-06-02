@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { Build } from "../../../utils/allImg";
+import AnimationsVideo from "../../../assets/img/Animation.mp4";
 const Banner = () => {
     return (
       <section className="MuiPaper-root-178 jss165 MuiPaper-elevation0-181">
@@ -88,12 +89,8 @@ const Banner = () => {
                 Build on
               </p>
               <img
-                src="/_next/static/images/build-on-b8ad2a3ee596f0e43334e281a057241b.png"
-                srcSet="
-                      /_next/static/images/build-on-b8ad2a3ee596f0e43334e281a057241b.png    1x,
-                      /_next/static/images/build-on@2x-12cdb906a3206f4773cd013737ef7dfb.png 2x,
-                      /_next/static/images/build-on@3x-7518273d04865d6e23e35d34af0e278c.png 3x
-                    "
+                src={Build}
+                
                 alt=""
               />
             </div>
@@ -108,7 +105,7 @@ const Banner = () => {
               __idm_id__={974849}
             >
               <source
-                src="/_next/static/videos/knife-with-cubes-animation-84e3c55440830e007d9a271e5aecacbb.mp4"
+                src={AnimationsVideo}
                 type="video/mp4"
               />
             </video>
