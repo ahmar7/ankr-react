@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './About.css'
 const About = () => {
     return (
       <section className="MuiPaper-root-178 jss311 MuiPaper-elevation0-181">

@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Footer.css'
 const Footer = () => {
   return (
     <footer className="MuiPaper-root-571 jss568 MuiPaper-elevation0-574">
@@ -190,60 +190,7 @@ const Footer = () => {
                       </svg>
                     </span>
                   </a>
-                </div>
-              </div>
-              <div className="jss629">
-                <div
-                  id="crypto-widget-CoinList"
-                  data-transparent="true"
-                  data-coins="ankr"
-                >
-                  <div
-                    id="zoid-coin-list-uid_abc2e20b39_mti6mti6mju"
-                    style={{ height: "118px" }}
-                  >
-                    <iframe
-                      allowTransparency="true"
-                      name="__zoid__coin_list__eyJzZW5kZXIiOnsiZG9tYWluIjoiaHR0cHM6Ly93d3cuYW5rci5jb20ifSwibWV0YURhdGEiOnsid2luZG93UmVmIjp7InR5cGUiOiJwYXJlbnQiLCJkaXN0YW5jZSI6MH19LCJyZWZlcmVuY2UiOnsidHlwZSI6InJhdyIsInZhbCI6IntcInVpZFwiOlwiem9pZC1jb2luLWxpc3QtdWlkX2FiYzJlMjBiMzlfbXRpNm10aTZtanVcIixcImNvbnRleHRcIjpcImlmcmFtZVwiLFwidGFnXCI6XCJjb2luLWxpc3RcIixcImNoaWxkRG9tYWluTWF0Y2hcIjpcImh0dHBzOi8vY3J5cHRvLmNvbVwiLFwidmVyc2lvblwiOlwiOV8wXzg3XCIsXCJwcm9wc1wiOntcIm1peGVkVHlwZVNsdWdzXCI6W1tcImFua3JcIl0sW11dLFwib3JpZ2luXCI6XCJ3d3cuYW5rci5jb21cIixcImlzVHJhbnNwYXJlbnRcIjp0cnVlLFwidGhlbWVNb2RlXCI6XCJsaWdodFwiLFwiZGVzaWduTW9kZVwiOlwiY2xhc3NpY1wiLFwiaGlkZVBvd2VyZWRCeUNyeXB0b1wiOmZhbHNlLFwiY3NwTm9uY2VcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9fSxcImV4cG9ydHNcIjp7XCJpbml0XCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfOTE0OTBiZmY2NV9tdGk2bXRpNm1qdVwiLFwibmFtZVwiOlwiaW5pdFwifX0sXCJjbG9zZVwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkXzk1ZDE5ODgzYTVfbXRpNm10aTZtanVcIixcIm5hbWVcIjpcImNsb3NlOjptZW1vaXplZFwifX0sXCJjaGVja0Nsb3NlXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfZDNiMjJmY2QzOV9tdGk2bXRpNm1qdVwiLFwibmFtZVwiOlwiY2hlY2tDbG9zZVwifX0sXCJyZXNpemVcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9lNGUzYmFlNTA5X210aTZtdGk2bWp1XCIsXCJuYW1lXCI6XCJCblwifX0sXCJvbkVycm9yXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfOWFlOTNlNWYxM19tdGk2bXRpNm1qdVwiLFwibmFtZVwiOlwiVm5cIn19LFwic2hvd1wiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkXzA1MzkwY2ViMzdfbXRpNm10aTZtanVcIixcIm5hbWVcIjpcInluXCJ9fSxcImhpZGVcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9kYzI0NjcxZGE3X210aTZtdGk2bWp1XCIsXCJuYW1lXCI6XCJnblwifX0sXCJleHBvcnRcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF85NTJmMjc5OTExX210aTZtdGk2bWp1XCIsXCJuYW1lXCI6XCJYblwifX19fSJ9fQ__"
-                      title="coin_list"
-                      id="uid_dc3ce4bc50_mti6mti6mju"
-                      className="zoid-visible"
-                      style={{
-                        backgroundColor: "transparent",
-                        border: "none",
-                      }}
-                    />
-                    <iframe
-                      name="__detect_close_uid_a430419967_mti6mti6mju__"
-                      style={{ display: "none" }}
-                    />
-                  </div>
-                  <div
-                    id="zoid-coin-list-uid_fc4ca4d229_mta6ndq6mtg"
-                    style={{ height: "118px" }}
-                  >
-                    <iframe
-                      allowTransparency="true"
-                      name="__zoid__coin_list__eyJzZW5kZXIiOnsiZG9tYWluIjoiaHR0cDovLzEyNy4wLjAuMTo1NTAxIn0sIm1ldGFEYXRhIjp7IndpbmRvd1JlZiI6eyJ0eXBlIjoicGFyZW50IiwiZGlzdGFuY2UiOjB9fSwicmVmZXJlbmNlIjp7InR5cGUiOiJyYXciLCJ2YWwiOiJ7XCJ1aWRcIjpcInpvaWQtY29pbi1saXN0LXVpZF9mYzRjYTRkMjI5X210YTZuZHE2bXRnXCIsXCJjb250ZXh0XCI6XCJpZnJhbWVcIixcInRhZ1wiOlwiY29pbi1saXN0XCIsXCJjaGlsZERvbWFpbk1hdGNoXCI6XCJodHRwczovL2NyeXB0by5jb21cIixcInZlcnNpb25cIjpcIjlfMF84N1wiLFwicHJvcHNcIjp7XCJtaXhlZFR5cGVTbHVnc1wiOltbXCJhbmtyXCJdLFtdXSxcIm9yaWdpblwiOlwiMTI3LjAuMC4xXCIsXCJpc1RyYW5zcGFyZW50XCI6dHJ1ZSxcInRoZW1lTW9kZVwiOlwibGlnaHRcIixcImRlc2lnbk1vZGVcIjpcImNsYXNzaWNcIixcImhpZGVQb3dlcmVkQnlDcnlwdG9cIjpmYWxzZSxcImNzcE5vbmNlXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifX0sXCJleHBvcnRzXCI6e1wiaW5pdFwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2UzMTc1NDMxNzNfbXRhNm5kcTZtdGdcIixcIm5hbWVcIjpcImluaXRcIn19LFwiY2xvc2VcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9mMDEzYTkwOGMzX210YTZuZHE2bXRnXCIsXCJuYW1lXCI6XCJjbG9zZTo6bWVtb2l6ZWRcIn19LFwiY2hlY2tDbG9zZVwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2M0YzVlMGFjZTZfbXRhNm5kcTZtdGdcIixcIm5hbWVcIjpcImNoZWNrQ2xvc2VcIn19LFwicmVzaXplXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfNzhlYzZkMTA5YV9tdGE2bmRxNm10Z1wiLFwibmFtZVwiOlwiQm5cIn19LFwib25FcnJvclwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2NkMTM0MGRjYWFfbXRhNm5kcTZtdGdcIixcIm5hbWVcIjpcIlZuXCJ9fSxcInNob3dcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9iYTVmZjIzZWU4X210YTZuZHE2bXRnXCIsXCJuYW1lXCI6XCJ5blwifX0sXCJoaWRlXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfNzZmYTAyYTlkMV9tdGE2bmRxNm10Z1wiLFwibmFtZVwiOlwiZ25cIn19LFwiZXhwb3J0XCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfNjNiYzBiNzI1NF9tdGE2bmRxNm10Z1wiLFwibmFtZVwiOlwiWG5cIn19fX0ifX0__"
-                      title="coin_list"
-                      id="uid_ea2e4b3d8c_mta6ndq6mtg"
-                      className="zoid-visible"
-                      style={{
-                        backgroundColor: "transparent",
-                        border: "none",
-                      }}
-                    />
-                    <style
-                      dangerouslySetInnerHTML={{
-                        __html:
-                          "\n            #zoid-coin-list-uid_fc4ca4d229_mta6ndq6mtg {\n                display: inline-block;\n                position: relative;\n                width: 100%;\n                height: none;\n            }\n\n            #zoid-coin-list-uid_fc4ca4d229_mta6ndq6mtg > iframe {\n                display: inline-block;\n                position: absolute;\n                width: 100%;\n                height: 100%;\n                top: 0;\n                left: 0;\n                transition: opacity .2s ease-in-out;\n            }\n\n            #zoid-coin-list-uid_fc4ca4d229_mta6ndq6mtg > iframe.zoid-invisible {\n                opacity: 0;\n            }\n\n            #zoid-coin-list-uid_fc4ca4d229_mta6ndq6mtg > iframe.zoid-visible {\n                opacity: 1;\n        }\n        ",
-                      }}
-                    />
-                    <iframe
-                      name="__detect_close_uid_82de6c24fa_mta6ndq6mtg__"
-                      style={{ display: "none" }}
-                    />
-                  </div>
+            
                 </div>
               </div>
             </div>
@@ -674,6 +621,7 @@ const Footer = () => {
                 <p className="MuiTypography-root-642 jss701 MuiTypography-body1-644">
                   Socials
                 </p>
+
                 <ul className="jss702">
                   <li className="jss703">
                     <a
@@ -693,7 +641,166 @@ const Footer = () => {
                             viewBox="0 0 14 12"
                             width={14}
                             xmlns="http://www.w3.org/2000/svg"
-                          ></svg>
+                          >
+                            <path
+                              clipRule="evenodd"
+                              d="M12.575 3.415c0-.132-.002-.262-.008-.39A5.9 5.9 0 0 0 14 1.485a5.562 5.562 0 0 1-1.65.452 2.937 2.937 0 0 0 1.262-1.65A5.464 5.464 0 0 1 11.79.99 2.862 2.862 0 0 0 9.694 0C8.107-.025 6.822 1.314 6.822 2.994c0 .239.025.47.073.695C4.506 3.535 2.391 2.292.975.417c-.246.449-.39.974-.39 1.537 0 1.063.507 2.008 1.278 2.567a2.765 2.765 0 0 1-1.3-.398v.039c0 1.486.99 2.732 2.303 3.023a2.707 2.707 0 0 1-1.297.044c.364 1.219 1.427 2.11 2.681 2.138A5.544 5.544 0 0 1 0 10.621 7.742 7.742 0 0 0 4.404 12c5.284 0 8.17-4.596 8.17-8.585z"
+                              fill="#82899a"
+                              fillRule="evenodd"
+                            />
+                          </svg>
+                          Twitter
+                        </div>
+                      </span>
+                    </a>
+                  </li>
+                  <li className="jss703">
+                    <a
+                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
+                      tabIndex={0}
+                      aria-disabled="false"
+                      href="#"
+                      role="link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="MuiButton-label-673">
+                        <div className="MuiBox-root-707 jss734 jss705">
+                          <svg
+                            fill="none"
+                            height={13}
+                            viewBox="0 0 15 13"
+                            width={15}
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clipRule="evenodd"
+                              d="M11.49 12.857a.72.72 0 0 0 .692.094.746.746 0 0 0 .452-.546C13.178 9.75 14.494 3.03 14.99.616a.52.52 0 0 0-.162-.492.485.485 0 0 0-.498-.091C11.709 1.04 3.638 4.19.339 5.46A.538.538 0 0 0 0 5.98c.008.23.156.43.37.496 1.48.46 3.422 1.1 3.422 1.1s.908 2.85 1.38 4.3c.06.182.197.325.378.375a.527.527 0 0 0 .506-.135l1.935-1.9s2.233 1.702 3.499 2.64zm-6.881-5.64l1.05 3.6.232-2.28 6.366-5.971a.186.186 0 0 0 .02-.245.173.173 0 0 0-.234-.042L4.609 7.216z"
+                              fill="#82899a"
+                              fillRule="evenodd"
+                            />
+                          </svg>
+                          Telegram
+                        </div>
+                      </span>
+                    </a>
+                  </li>
+                  <li className="jss703">
+                    <a
+                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
+                      tabIndex={0}
+                      aria-disabled="false"
+                      href="#"
+                      role="link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="MuiButton-label-673">
+                        <div className="MuiBox-root-707 jss735 jss705">
+                          <svg
+                            fill="none"
+                            height={14}
+                            viewBox="0 0 16 14"
+                            width={16}
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.553 1.819a13.031 13.031 0 0 0-3.3-1.038 9.674 9.674 0 0 0-.423.878 12.12 12.12 0 0 0-3.659 0 9.38 9.38 0 0 0-.427-.878c-1.16.2-2.268.554-3.304 1.04C.351 4.978-.215 8.056.068 11.091a13.197 13.197 0 0 0 4.048 2.075c.326-.45.617-.926.867-1.429a8.527 8.527 0 0 1-1.365-.664c.115-.085.227-.173.335-.265 2.632 1.232 5.493 1.232 8.094 0 .11.092.222.18.335.265-.433.26-.891.485-1.368.666.25.501.54.98.867 1.428a13.171 13.171 0 0 0 4.051-2.076c.332-3.518-.568-6.568-2.379-9.272zm-8.21 7.406c-.791 0-1.44-.738-1.44-1.637s.635-1.637 1.44-1.637c.803 0 1.451.738 1.438 1.637 0 .899-.635 1.637-1.439 1.637zm5.315 0c-.79 0-1.439-.738-1.439-1.637s.635-1.637 1.439-1.637 1.452.738 1.438 1.637c0 .899-.634 1.637-1.438 1.637z"
+                              fill="#82899a"
+                            />
+                          </svg>
+                          Discord
+                        </div>
+                      </span>
+                    </a>
+                  </li>
+                  <li className="jss703">
+                    <a
+                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
+                      tabIndex={0}
+                      aria-disabled="false"
+                      href="#"
+                      role="link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="MuiButton-label-673">
+                        <div className="MuiBox-root-707 jss736 jss705">
+                          <svg
+                            fill="none"
+                            height={10}
+                            viewBox="0 0 16 10"
+                            width={16}
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.513 0c2.492 0 4.512 2.034 4.512 4.544 0 2.509-2.02 4.543-4.512 4.543S0 7.053 0 4.544C0 2.034 2.02 0 4.513 0zm7.206.266c1.246 0 2.256 1.915 2.256 4.278 0 2.361-1.01 4.277-2.256 4.277-1.246 0-2.256-1.916-2.256-4.277S10.473.266 11.719.266zm3.488.446c.438 0 .793 1.715.793 3.832 0 2.115-.355 3.831-.793 3.831-.439 0-.794-1.715-.794-3.831 0-2.117.355-3.832.793-3.832z"
+                              fill="#82899a"
+                            />
+                          </svg>
+                          Medium
+                        </div>
+                      </span>
+                    </a>
+                  </li>
+                  <li className="jss703">
+                    <a
+                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
+                      tabIndex={0}
+                      aria-disabled="false"
+                      href="#"
+                      role="link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="MuiButton-label-673">
+                        <div className="MuiBox-root-707 jss737 jss705">
+                          <svg
+                            fill="none"
+                            height={16}
+                            viewBox="0 0 16 16"
+                            width={16}
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clipRule="evenodd"
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-2.705.325c.029-.106.043-.215.041-.325a1.167 1.167 0 0 0-1.976-.8 5.682 5.682 0 0 0-3.08-.984L8.8 3.72l1.712.36a.8.8 0 1 0 .104-.488L8.656 3.2a.25.25 0 0 0-.258.102.247.247 0 0 0-.038.09l-.592 2.776a5.709 5.709 0 0 0-3.12.984A1.168 1.168 0 1 0 3.36 9.064a2.141 2.141 0 0 0 0 .352c0 1.792 2.088 3.248 4.664 3.248s4.664-1.456 4.664-3.248a2.141 2.141 0 0 0 0-.352 1.166 1.166 0 0 0 .607-.74zM5.57 9.365a.801.801 0 1 1 1.133-1.133.801.801 0 0 1-1.133 1.134zm4.474 1.51a.216.216 0 0 1-.065.152L9.984 11a3.074 3.074 0 0 1-1.976.616 3.09 3.09 0 0 1-1.53-.336 3.074 3.074 0 0 1-.446-.28.216.216 0 0 1 .304-.304A2.613 2.613 0 0 0 8 11.2a2.625 2.625 0 0 0 1.672-.488.262.262 0 0 1 .159-.056.216.216 0 0 1 .213.219zm.104-1.272a.802.802 0 0 1-.316.061l.008-.032a.8.8 0 1 1 .8-.8.798.798 0 0 1-.492.77z"
+                              fill="#82899a"
+                              fillRule="evenodd"
+                            />
+                          </svg>
+                          Reddit
+                        </div>
+                      </span>
+                    </a>
+                  </li>
+                  <li className="jss703">
+                    <a
+                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
+                      tabIndex={0}
+                      aria-disabled="false"
+                      href="#"
+                      role="link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="MuiButton-label-673">
+                        <div className="MuiBox-root-707 jss738 jss705">
+                          <svg
+                            fill="none"
+                            height={14}
+                            viewBox="0 0 14 14"
+                            width={14}
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clipRule="evenodd"
+                              d="M14 6.646v.749c0 .833.002 1.661-.046 2.494-.055 1.121-.308 2.114-1.13 2.935-.82.82-1.814 1.076-2.935 1.13-.847.048-1.689.047-2.536.046h-.706a44.11 44.11 0 0 1-2.537-.046c-1.12-.054-2.113-.308-2.934-1.13C.356 12.004.1 11.01.046 9.89A44.174 44.174 0 0 1 0 7.353v-.706c0-.846-.002-1.688.046-2.536C.1 2.99.354 1.997 1.176 1.176 1.996.356 2.99.1 4.11.046 4.958-.002 5.8 0 6.646 0h.707c.846 0 1.688-.002 2.536.046 1.121.054 2.114.308 2.935 1.13.82.82 1.075 1.814 1.13 2.935.047.847.046 1.688.045 2.535zM4.663 7a2.34 2.34 0 0 1 2.334-2.334c1.285 0 2.334 1.049 2.334 2.334S8.283 9.334 6.998 9.334A2.34 2.34 0 0 1 4.664 7zm2.334 3.592A3.587 3.587 0 0 1 3.406 7a3.587 3.587 0 0 1 3.592-3.592A3.587 3.587 0 0 1 10.59 7a3.587 3.587 0 0 1-3.592 3.592zm2.9-7.33a.838.838 0 1 0 1.678 0 .838.838 0 1 0-1.678 0z"
+                              fill="#82899a"
+                              fillRule="evenodd"
+                            />
+                          </svg>
+                          Instagram
                         </div>
                       </span>
                     </a>

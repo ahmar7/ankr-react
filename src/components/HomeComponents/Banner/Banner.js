@@ -1,4 +1,5 @@
 import React from 'react';
+import './Banner.css'
 import { Build } from "../../../utils/allImg";
 import AnimationsVideo from "../../../assets/img/Animation.mp4";
 const Banner = () => {

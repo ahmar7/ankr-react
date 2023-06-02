@@ -1,4 +1,5 @@
 import React from 'react';
+import "./BuildingDev.css";
 import { Rocket, Projects, Gaming } from "../../../utils/allImg";
 const BuildingDev = () => {
     return (
