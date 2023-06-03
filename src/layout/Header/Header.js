@@ -41,12 +41,7 @@ const Header = () => {
     }
   };
   let toggleTrue2 = () => {
-      //   let test = document.getElementById("test");
-      //   if (test.style.maxHeight) {
-          //     test.style.maxHeight = null;
-    //   } else {
-        //     test.style.maxHeight = test.scrollHeight + "px";
-        //   }
+     
         setmobileMenu4(false);
         setmobileMenu(false);
     setmobileStudy(false);
