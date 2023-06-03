@@ -30,8 +30,8 @@ const Header = () => {
     setmobileMenu2(false);
     setmobileMenu4(false);
     setfullFloat(false);
-        setmobileStudy(false);
-        setmobileMenu3(false);
+    setmobileStudy(false);
+    setmobileMenu3(false);
   };
   let toggleFalse2 = () => {
     if (mobileMenu2 === false) {
@@ -41,10 +41,16 @@ const Header = () => {
     }
   };
   let toggleTrue2 = () => {
-    setmobileMenu(false);
-    setmobileMenu4(false);
-        setmobileStudy(false);
-        setfullFloat(false);
+      //   let test = document.getElementById("test");
+      //   if (test.style.maxHeight) {
+          //     test.style.maxHeight = null;
+    //   } else {
+        //     test.style.maxHeight = test.scrollHeight + "px";
+        //   }
+        setmobileMenu4(false);
+        setmobileMenu(false);
+    setmobileStudy(false);
+    setfullFloat(false);
     setmobileMenu3(false);
     setmobileMenu2(true);
   };
@@ -58,8 +64,8 @@ const Header = () => {
   let toggleTrue3 = () => {
     setmobileMenu(false);
     setfullFloat(false);
-        setmobileStudy(false);
-        setmobileMenu2(false);
+    setmobileStudy(false);
+    setmobileMenu2(false);
     setmobileMenu3(true);
     setmobileMenu4(false);
   };
@@ -73,8 +79,8 @@ const Header = () => {
   let toggleTrue4 = () => {
     setmobileMenu(false);
     setmobileMenu2(false);
-        setmobileStudy(false);
-        setmobileMenu3(false);
+    setmobileStudy(false);
+    setmobileMenu3(false);
     setmobileMenu4(true);
     setfullFloat(false);
   };
@@ -102,18 +108,17 @@ const Header = () => {
       body.style.overflow = "hidden";
     }
   };
-  let toggleMobileCase=()=>{
-    if (fullFloat===false){
-        setfullFloat(true)
-    }
-    else{
-        setfullFloat(false)
+  let toggleMobileCase = () => {
+    if (fullFloat === false) {
+      setfullFloat(true);
+    } else {
+      setfullFloat(false);
     }
     setmobileMenu(false);
-     setmobileMenu2(false);
-     setmobileMenu3(false);
-     setmobileMenu4(false);
-  }
+    setmobileMenu2(false);
+    setmobileMenu3(false);
+    setmobileMenu4(false);
+  };
   return (
     <>
       <header
@@ -269,7 +274,7 @@ const Header = () => {
                     </span>
                   </button>
                   <div className="float-overlay" onClick={toggleFalse}></div>
-                  <div className="float-dv">
+                  <div onMouseLeave={toggleFalse} className="float-dv">
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
@@ -638,7 +643,11 @@ const Header = () => {
                     </span>
                   </button>
                   <div className="float-overlay" onClick={toggleFalse2}></div>
-                  <div className="float-dv alters-section">
+                  <div
+                    onMouseLeave={toggleFalse2}
+                    id="test"
+                    className="float-dv  alters-section"
+                  >
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
@@ -712,7 +721,10 @@ const Header = () => {
                     </span>
                   </button>
                   <div className="float-overlay" onClick={toggleFalse3}></div>
-                  <div className="float-dv alters-section">
+                  <div
+                    onMouseLeave={toggleFalse3}
+                    className="float-dv alters-section"
+                  >
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
@@ -789,7 +801,10 @@ const Header = () => {
                     </span>
                   </button>
                   <div className="float-overlay" onClick={toggleFalse4}></div>
-                  <div className="float-dv alters-section">
+                  <div
+                    onMouseLeave={toggleFalse4}
+                    className="float-dv alters-section"
+                  >
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
@@ -1326,202 +1341,200 @@ const Header = () => {
       {fullFloat && (
         <div className="full-float" onMouseLeave={toggleFull}>
           <div className="MuiContainer-root-1268 jss768 jss769 MuiContainer-maxWidthLg-1274">
-            <div className="MuiContainer-root-1268 jss768 jss769 MuiContainer-maxWidthLg-1274">
-              <div className="jss753 case-studies">
-                <div className="jss1276 jss1277">
-                  <a
-                    className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
-                    tabIndex={0}
-                    aria-disabled="false"
-                    role="link"
-                    href="/case-studies/bnb/"
-                  >
-                    <span className="MuiButton-label-107">
-                      <img
-                        src="https://www.ankr.com/_next/static/images/bnb-chain-e515a9b6939286a8f7e7114eca2dbdae.png"
-                        alt="header.sub-menus.case-studies.bnb-chain.title"
-                        className="jss1287"
-                      />
-                      <div className="MuiBox-root-1290 jss1291">
-                        <div className="MuiBox-root-1290 jss1292 jss1280">
-                          <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
-                            BNB Chain
-                          </h4>
-                          <svg
-                            className="jss1288"
-                            width={15}
-                            height={14}
-                            viewBox="0 0 15 14"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                        <p className="MuiTypography-root-134 jss1289 MuiTypography-body1-136">
-                          Ankr’s contributions take BNB Chain to the next level.
-                        </p>
+            <div className="jss753 case-studies">
+              <div className="jss1276 jss1277">
+                <a
+                  className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
+                  tabIndex={0}
+                  aria-disabled="false"
+                  role="link"
+                  href="/case-studies/bnb/"
+                >
+                  <span className="MuiButton-label-107">
+                    <img
+                      src="https://www.ankr.com/_next/static/images/bnb-chain-e515a9b6939286a8f7e7114eca2dbdae.png"
+                      alt="header.sub-menus.case-studies.bnb-chain.title"
+                      className="jss1287"
+                    />
+                    <div className="MuiBox-root-1290 jss1291">
+                      <div className="MuiBox-root-1290 jss1292 jss1280">
+                        <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
+                          BNB Chain
+                        </h4>
+                        <svg
+                          className="jss1288"
+                          width={15}
+                          height={14}
+                          viewBox="0 0 15 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
+                            fill="currentColor"
+                          />
+                        </svg>
                       </div>
-                    </span>
-                  </a>
-                </div>
-                <div className="jss1276 jss1278">
-                  <a
-                    className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
-                    tabIndex={0}
-                    aria-disabled="false"
-                    role="link"
-                    href="/case-studies/sushi/"
-                  >
-                    <span className="MuiButton-label-107">
-                      <img
-                        src="https://www.ankr.com/_next/static/images/sushi-swap-f9fdfea96a96d3c1319f0a5690d224fd.png"
-                        alt="header.sub-menus.case-studies.sushi-swap.title"
-                        className="jss1287"
-                      />
-                      <div className="MuiBox-root-1290 jss1293">
-                        <div className="MuiBox-root-1290 jss1294 jss1280">
-                          <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
-                            SushiSwap
-                          </h4>
-                          <svg
-                            className="jss1288"
-                            width={15}
-                            height={14}
-                            viewBox="0 0 15 14"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                        <p className="MuiTypography-root-134 jss1289 MuiTypography-body1-136">
-                          Serving up a multi-chain connection for the DeFi chefs
-                          at SushiSwap.
-                        </p>
+                      <p className="MuiTypography-root-134 jss1289 MuiTypography-body1-136">
+                        Ankr’s contributions take BNB Chain to the next level.
+                      </p>
+                    </div>
+                  </span>
+                </a>
+              </div>
+              <div className="jss1276 jss1278">
+                <a
+                  className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
+                  tabIndex={0}
+                  aria-disabled="false"
+                  role="link"
+                  href="/case-studies/sushi/"
+                >
+                  <span className="MuiButton-label-107">
+                    <img
+                      src="https://www.ankr.com/_next/static/images/sushi-swap-f9fdfea96a96d3c1319f0a5690d224fd.png"
+                      alt="header.sub-menus.case-studies.sushi-swap.title"
+                      className="jss1287"
+                    />
+                    <div className="MuiBox-root-1290 jss1293">
+                      <div className="MuiBox-root-1290 jss1294 jss1280">
+                        <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
+                          SushiSwap
+                        </h4>
+                        <svg
+                          className="jss1288"
+                          width={15}
+                          height={14}
+                          viewBox="0 0 15 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
+                            fill="currentColor"
+                          />
+                        </svg>
                       </div>
-                    </span>
-                  </a>
-                </div>
-                <div className="jss1276 jss1278">
-                  <a
-                    className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
-                    tabIndex={0}
-                    aria-disabled="false"
-                    role="link"
-                    href="/case-studies/bomb/"
-                  >
-                    <span className="MuiButton-label-107">
-                      <img
-                        src="https://www.ankr.com/_next/static/images/bomb-money-587117d1a79f75492efaba6ffc9acbf3.png"
-                        alt="header.sub-menus.case-studies.bomb-money.title"
-                        className="jss1287"
-                      />
-                      <div className="MuiBox-root-1290 jss1295">
-                        <div className="MuiBox-root-1290 jss1296 jss1280">
-                          <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
-                            BOMB Money
-                          </h4>
-                          <svg
-                            className="jss1288"
-                            width={15}
-                            height={14}
-                            viewBox="0 0 15 14"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                        <p className="MuiTypography-root-134 jss1289 MuiTypography-body1-136">
-                          Explosive scalability delivered for BOMB Money with
-                          their own AppChain.
-                        </p>
+                      <p className="MuiTypography-root-134 jss1289 MuiTypography-body1-136">
+                        Serving up a multi-chain connection for the DeFi chefs
+                        at SushiSwap.
+                      </p>
+                    </div>
+                  </span>
+                </a>
+              </div>
+              <div className="jss1276 jss1278">
+                <a
+                  className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
+                  tabIndex={0}
+                  aria-disabled="false"
+                  role="link"
+                  href="/case-studies/bomb/"
+                >
+                  <span className="MuiButton-label-107">
+                    <img
+                      src="https://www.ankr.com/_next/static/images/bomb-money-587117d1a79f75492efaba6ffc9acbf3.png"
+                      alt="header.sub-menus.case-studies.bomb-money.title"
+                      className="jss1287"
+                    />
+                    <div className="MuiBox-root-1290 jss1295">
+                      <div className="MuiBox-root-1290 jss1296 jss1280">
+                        <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
+                          BOMB Money
+                        </h4>
+                        <svg
+                          className="jss1288"
+                          width={15}
+                          height={14}
+                          viewBox="0 0 15 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
+                            fill="currentColor"
+                          />
+                        </svg>
                       </div>
-                    </span>
-                  </a>
-                </div>
-                <div className="jss1276 jss1278">
-                  <a
-                    className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
-                    tabIndex={0}
-                    aria-disabled="false"
-                    role="link"
-                    href="/case-studies/meta-apes/"
-                  >
-                    <span className="MuiButton-label-107">
-                      <img
-                        src="https://www.ankr.com/_next/static/images/meta-apes-a993da5e7e2b5fd22dfc4b1ed596a51e.png"
-                        alt="header.sub-menus.case-studies.meta-apes.title"
-                        className="jss1287"
-                      />
-                      <div className="MuiBox-root-1290 jss1297">
-                        <div className="MuiBox-root-1290 jss1298 jss1280">
-                          <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
-                            Meta Apes
-                          </h4>
-                          <svg
-                            className="jss1288"
-                            width={15}
-                            height={14}
-                            viewBox="0 0 15 14"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                        <p className="MuiTypography-root-134 jss1289 MuiTypography-body1-136">
-                          Taking a Web2 game to Web3 in 6 weeks? Bananas.
-                        </p>
+                      <p className="MuiTypography-root-134 jss1289 MuiTypography-body1-136">
+                        Explosive scalability delivered for BOMB Money with
+                        their own AppChain.
+                      </p>
+                    </div>
+                  </span>
+                </a>
+              </div>
+              <div className="jss1276 jss1278">
+                <a
+                  className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
+                  tabIndex={0}
+                  aria-disabled="false"
+                  role="link"
+                  href="/case-studies/meta-apes/"
+                >
+                  <span className="MuiButton-label-107">
+                    <img
+                      src="https://www.ankr.com/_next/static/images/meta-apes-a993da5e7e2b5fd22dfc4b1ed596a51e.png"
+                      alt="header.sub-menus.case-studies.meta-apes.title"
+                      className="jss1287"
+                    />
+                    <div className="MuiBox-root-1290 jss1297">
+                      <div className="MuiBox-root-1290 jss1298 jss1280">
+                        <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
+                          Meta Apes
+                        </h4>
+                        <svg
+                          className="jss1288"
+                          width={15}
+                          height={14}
+                          viewBox="0 0 15 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
+                            fill="currentColor"
+                          />
+                        </svg>
                       </div>
-                    </span>
-                  </a>
-                </div>
-                <div className="jss1276 jss1279">
-                  <a
-                    className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 jss1286 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
-                    tabIndex={0}
-                    aria-disabled="false"
-                    role="link"
-                    href="/app-chains/"
-                  >
-                    <span className="MuiButton-label-107">
-                      <div className="MuiBox-root-1290 jss1299">
-                        <div className="MuiBox-root-1290 jss1300 jss1280">
-                          <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
-                            More coming soon
-                          </h4>
-                          <svg
-                            className="jss1288"
-                            width={15}
-                            height={14}
-                            viewBox="0 0 15 14"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
+                      <p className="MuiTypography-root-134 jss1289 MuiTypography-body1-136">
+                        Taking a Web2 game to Web3 in 6 weeks? Bananas.
+                      </p>
+                    </div>
+                  </span>
+                </a>
+              </div>
+              <div className="jss1276 jss1279">
+                <a
+                  className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 jss1286 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
+                  tabIndex={0}
+                  aria-disabled="false"
+                  role="link"
+                  href="/app-chains/"
+                >
+                  <span className="MuiButton-label-107">
+                    <div className="MuiBox-root-1290 jss1299">
+                      <div className="MuiBox-root-1290 jss1300 jss1280">
+                        <h4 className="MuiTypography-root-134 jss1281 MuiTypography-h4-142">
+                          More coming soon
+                        </h4>
+                        <svg
+                          className="jss1288"
+                          width={15}
+                          height={14}
+                          viewBox="0 0 15 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 6h10.586L6.293 1.707 7.707.293 14.414 7l-6.707 6.707-1.414-1.414L10.586 8H0V6z"
+                            fill="currentColor"
+                          />
+                        </svg>
                       </div>
-                    </span>
-                  </a>
-                </div>
+                    </div>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
