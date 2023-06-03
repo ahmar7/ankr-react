@@ -3486,11 +3486,7 @@ html {
           color: #fff;
         }
       }
-      @media (max-width: 959.95px) {
-        .jss95.jss95 {
-          display: none;
-        }
-      }
+      
       .jss96 {
         width: max-content;
         display: flex;

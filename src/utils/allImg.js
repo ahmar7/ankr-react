@@ -3,6 +3,7 @@ import Avalanche from '../assets/img/avalanche.png'
 import Polygon from '../assets/img/Polygon.png'
 import Feature from '../assets/img/Feature.png'
 
+import rightArrow from '../assets/img/right.svg'
 import Building from '../assets/img/Building.png'
 import Scale from '../assets/img/Scale.png'
 import Build from '../assets/img/Build.png'
@@ -14,7 +15,7 @@ import Rocket from '../assets/img/Rocket.png'
 import Projects from '../assets/img/Projects.png'
 import Gaming from '../assets/img/Gaming.png'
 export {
-  BinanceLogo,
+  BinanceLogo,rightArrow,
   Avalanche,
   Polygon,
   Building,
