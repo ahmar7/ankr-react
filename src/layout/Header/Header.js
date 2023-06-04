@@ -5,6 +5,8 @@ const Header = () => {
   const [toggleMobileMenu, settoggleMobileMenu] = useState(false);
   const [MenuName, setMenuName] = useState("Menu");
   const [mobileStudy, setmobileStudy] = useState(false);
+  const [closeAnim, setcloseAnim] = useState(false);
+
   const [sideToggle, setsideToggle] = useState(false);
   const [fullFloat, setfullFloat] = useState(false);
   const [mobileMenu, setmobileMenu] = useState(false);
@@ -41,9 +43,8 @@ const Header = () => {
     }
   };
   let toggleTrue2 = () => {
-     
-        setmobileMenu4(false);
-        setmobileMenu(false);
+    setmobileMenu4(false);
+    setmobileMenu(false);
     setmobileStudy(false);
     setfullFloat(false);
     setmobileMenu3(false);
@@ -67,8 +68,10 @@ const Header = () => {
   let toggleFalse4 = () => {
     if (mobileMenu4 === false) {
       setmobileMenu4(true);
-    } else {
-      setmobileMenu4(false);
+    } else { 
+        setmobileMenu4(false);
+     
+      setcloseAnim(true);
     }
   };
   let toggleTrue4 = () => {
@@ -240,7 +243,7 @@ const Header = () => {
               <ul className="jss1227 jss95">
                 <li
                   className={
-                    mobileMenu ? "jss1229 static active-bar" : "jss1229 static"
+                    mobileMenu ? "jss1229 static active-bar" : "jss1229 static closeAn "
                   }
                   onMouseEnter={toggleTrue}
                   onClick={toggleFalse}
@@ -268,7 +271,10 @@ const Header = () => {
                       </svg>
                     </span>
                   </button>
-                  <div className="float-overlay" onClick={toggleFalse}></div>
+                  <div
+                    className="float-overlay"
+                    onMouseEnter={toggleFalse}
+                  ></div>
                   <div onMouseLeave={toggleFalse} className="float-dv">
                     <div className="bottom-sec">
                       <a href="" className="link-float">
@@ -276,7 +282,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
 
                         <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
@@ -291,7 +297,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
 
                         <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
@@ -306,7 +312,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
 
                         <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
@@ -321,7 +327,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
 
                         <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
@@ -336,7 +342,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
 
                         <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
@@ -351,7 +357,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
 
                         <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
@@ -366,7 +372,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
 
                         <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
@@ -379,7 +385,7 @@ const Header = () => {
                 </li>
                 <li
                   className={
-                    fullFloat ? "jss1229 static active-bar" : "jss1229 static"
+                    fullFloat ? "jss1229 static active-bar" : "jss1229 static closeAn "
                   }
                   onMouseEnter={toggleFull}
                   onClick={toggleMobileCase}
@@ -609,7 +615,9 @@ const Header = () => {
                 </li>
                 <li
                   className={
-                    mobileMenu2 ? "jss1229 static active-bar" : "jss1229 static"
+                    mobileMenu2
+                      ? "jss1229 static active-bar"
+                      : "jss1229 static closeAn "
                   }
                   onMouseEnter={toggleTrue2}
                   onClick={toggleFalse2}
@@ -637,7 +645,10 @@ const Header = () => {
                       </svg>
                     </span>
                   </button>
-                  <div className="float-overlay" onClick={toggleFalse2}></div>
+                  <div
+                    className="float-overlay"
+                    onMouseEnter={toggleFalse2}
+                  ></div>
                   <div
                     onMouseLeave={toggleFalse2}
                     id="test"
@@ -649,7 +660,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Docs
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -659,7 +670,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Grants & Programs
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -669,7 +680,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Tutorials
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -679,7 +690,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Github
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -687,7 +698,9 @@ const Header = () => {
                 </li>
                 <li
                   className={
-                    mobileMenu3 ? "jss1229 static active-bar" : "jss1229 static"
+                    mobileMenu3
+                      ? "jss1229 static active-bar"
+                      : "jss1229 static closeAn "
                   }
                   onMouseEnter={toggleTrue3}
                   onClick={toggleFalse3}
@@ -715,7 +728,10 @@ const Header = () => {
                       </svg>
                     </span>
                   </button>
-                  <div className="float-overlay" onClick={toggleFalse3}></div>
+                  <div
+                    className="float-overlay"
+                    onMouseEnter={toggleFalse3}
+                  ></div>
                   <div
                     onMouseLeave={toggleFalse3}
                     className="float-dv alters-section"
@@ -726,7 +742,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Ankr Network
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -738,7 +754,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Ankr Whitepaper
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -749,7 +765,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Ambassador Program
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -759,7 +775,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Node Providers
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -767,7 +783,10 @@ const Header = () => {
                 </li>
                 <li
                   className={
-                    mobileMenu4 ? "jss1229 static active-bar" : "jss1229 static"
+                     
+                    mobileMenu4
+                      ? "jss1229 static active-bar"
+                      : "jss1229 static closeAn " 
                   }
                   onMouseEnter={toggleTrue4}
                   onClick={toggleFalse4}
@@ -795,7 +814,10 @@ const Header = () => {
                       </svg>
                     </span>
                   </button>
-                  <div className="float-overlay" onClick={toggleFalse4}></div>
+                  <div
+                    className="float-overlay"
+                    onMouseEnter={toggleFalse4}
+                  ></div>
                   <div
                     onMouseLeave={toggleFalse4}
                     className="float-dv alters-section"
@@ -806,7 +828,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             About Us
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -816,7 +838,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Press
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -826,7 +848,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Blog
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -836,7 +858,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Careers
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
@@ -846,7 +868,7 @@ const Header = () => {
                           <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Brand Assets
                           </h4>
-                          <img src={rightArrow} alt="" />
+                         <div className="img-cont"> <img src={rightArrow} alt="" /></div>
                         </div>
                       </a>
                     </div>
