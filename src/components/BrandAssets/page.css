@@ -62,11 +62,7 @@
       box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
         0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
     }
-    .MuiPaper-elevation4-35 {
-      box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-        0px 4px 5px 0px rgba(0, 0, 0, 0.14),
-        0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-    }
+   
     .MuiPaper-elevation5-36 {
       box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
         0px 5px 8px 0px rgba(0, 0, 0, 0.14),
@@ -4021,14 +4017,7 @@
     .MuiButton-iconSizeLarge-1125 > *:first-child {
       font-size: 22px;
     } 
-    .MuiAppBar-root-17 {
-      width: 100%;
-      display: flex;
-      z-index: 1100;
-      box-sizing: border-box;
-      flex-shrink: 0;
-      flex-direction: column;
-    }
+   
     .MuiAppBar-positionFixed-18 {
       top: 0;
       left: auto;
@@ -4077,17 +4066,7 @@
       color: inherit;
       background-color: transparent;
     } 
-    .jss8 {
-      top: 0;
-      color: rgba(0, 0, 0, 0.87);
-      z-index: 1310;
-      box-shadow: 0px 3px 16px rgba(26, 36, 57, 0.1);
-      transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms !important;
-      padding-bottom: 17px;
-      background-color: #fff;
-      transition-property: transform, box-shadow, padding-top, padding-bottom,
-        background-color !important;
-    }
+  
     .jss9.jss9 {
       box-shadow: none;
       padding-bottom: 20px;
@@ -4117,13 +4096,7 @@
     .jss15 {
       color: #fff;
     }
-    .jss16 {
-      width: 100%;
-      margin: 0 auto;
-      max-width: 1460px;
-      box-sizing: border-box;
-      padding-top: 18px;
-    } 
+   
     .MuiPopover-paper-2225 {
       outline: 0;
       position: absolute;
@@ -5269,46 +5242,8 @@
       width: 102px;
       height: auto;
     }
-    .jss294 {
-      overflow: hidden;
-      padding-bottom: 40px;
-    }
-    @media (max-width: 959.95px) {
-      .jss294 {
-        padding-bottom: 52px;
-      }
-    }
-    @media (max-width: 767.95px) {
-      .jss294 {
-        padding-bottom: 60px;
-      }
-    }
-    .jss295.jss295 {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-    }
-    .jss296.jss296 {
-      max-width: 900px;
-      margin-bottom: 60px;
-    }
-    @media (max-width: 959.95px) {
-      .jss296.jss296 {
-        max-width: 510px;
-        margin-bottom: 40px;
-      }
-    }
-    .jss297.jss297 {
-      width: 100%;
-      font-size: 40px;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    @media (max-width: 767.95px) {
-      .jss297.jss297 {
-        font-size: 36px;
-      }
-    }
+    
+  
     .jss298.jss298 {
       color: rgba(31, 34, 38, 0.5);
       font-size: 16px;
@@ -5454,13 +5389,7 @@
     .MuiGrid-spacing-xs-2-330 > .MuiGrid-item-308 {
       padding: 8px;
     }
-    .MuiGrid-spacing-xs-3-331 {
-      width: calc(100% + 24px);
-      margin: -12px;
-    }
-    .MuiGrid-spacing-xs-3-331 > .MuiGrid-item-308 {
-      padding: 12px;
-    }
+    
     .MuiGrid-spacing-xs-4-332 {
       width: calc(100% + 32px);
       margin: -16px;
@@ -7358,47 +7287,7 @@
         margin-bottom: 0;
       }
     }
-    .jss455.jss455 {
-      font-size: 28px;
-      background: #f2f5fa;
-      text-align: center;
-      padding-top: 44px;
-      border-radius: 30px;
-      margin-bottom: 20px;
-      padding-bottom: 42px;
-    }
-    @media (max-width: 767.95px) {
-      .jss455.jss455 {
-        font-size: 20px;
-        margin-bottom: 16px;
-      }
-    }
-    .jss456.jss456 {
-      color: rgba(31, 34, 38, 0.5);
-      font-size: 16px;
-      font-family: "Inter-Medium", sans-serif;
-    }
-    .jss457.jss457 {
-      width: 100%;
-      font-size: 40px;
-      text-align: center;
-      margin-bottom: 60px;
-    }
-    @media (max-width: 767.95px) {
-      .jss457.jss457 {
-        font-size: 36px;
-        margin-bottom: 40px;
-      }
-    }
-    .jss458.jss458 {
-      color: #356df3;
-      cursor: pointer;
-      display: inline-flex;
-      font-size: 18px;
-      margin-top: 16px;
-      align-items: center;
-      font-weight: 600;
-    }
+   
     .jss459 {
       font-family: "TT-Firs-Neue-Demi-Bold", sans-serif;
     }
@@ -7455,46 +7344,8 @@
         padding-bottom: 0;
       }
     }
-    .jss467 {
-      width: calc(100% + 20px);
-      margin: 0 -10px;
-      display: flex;
-      flex-wrap: wrap;
-      box-sizing: border-box;
-    }
-    @media (max-width: 959.95px) {
-      .jss467 {
-        width: 100%;
-        margin: 0;
-        flex-direction: column;
-      }
-    }
-    .jss468 {
-      width: 50%;
-      display: flex;
-      flex-wrap: wrap;
-      box-sizing: border-box;
-      flex-direction: column;
-    }
-    @media (max-width: 959.95px) {
-      .jss468 {
-        width: 100%;
-        margin: 0;
-      }
-    }
-    .jss469 {
-      width: calc(100% - 20px);
-      margin: 0 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    @media (max-width: 959.95px) {
-      .jss469 {
-        width: 100%;
-        margin: 0;
-      }
-    }
+   
+   
     .jss470 {
       width: 100%;
     }
@@ -7591,18 +7442,7 @@
         font-size: 28px;
       }
     }
-    .jss479.jss479 {
-      width: 100%;
-      bottom: 20px;
-      display: flex;
-      padding: 0px 24px;
-      position: absolute;
-      font-size: 14px;
-      justify-content: space-between;
-    }
-    .jss480.jss480 {
-      bottom: 42px;
-    }
+   
     .jss481.jss481 {
       color: #ffffff;
       height: 100px;
@@ -7622,32 +7462,9 @@
     .jss483.jss483 {
       color: #9aa1b0;
     }
-    .jss484.jss484 {
-      color: rgba(0, 0, 0, 0.38);
-      font-size: 15px;
-      margin-top: 20px;
-      font-family: "Inter-Medium", sans-serif;
-      margin-bottom: 40px;
-    }
-    @media (max-width: 767.95px) {
-      .jss484.jss484 {
-        margin-top: 16px;
-      }
-    }
-    .jss485.jss485 {
-      width: 100%;
-      font-size: 40px;
-      text-align: center;
-      font-family: "TT-Firs-Neue-Demi-Bold", sans-serif;
-      margin-bottom: 60px;
-    }
-    @media (max-width: 767.95px) {
-      .jss485.jss485 {
-        font-size: 36px;
-        margin-bottom: 48px;
-      }
-    }
-    .jss486 {
+    
+    
+    .jss4860 {
       opacity: 0;
       transform: translateY(10px);
       transition: opacity 0.8s, transform 0.8s;
@@ -8485,56 +8302,19 @@
       visibility: hidden;
       line-height: 0;
     } 
-    .jss165 {
-      padding: 208px 24px 120px 24px;
-      overflow: hidden;
-    }
-    @media (max-width: 959.95px) {
-      .jss165 {
-        padding-top: 120px;
-        padding-bottom: 60px;
-      }
-    }
-    @media (max-width: 767.95px) {
-      .jss165 {
-        padding-top: 80px;
-        padding-bottom: 20px;
-      }
-    }
-    .jss166.jss166 {
-      height: 440px;
-      display: flex;
-      padding: 116px 0px;
-      max-width: 1620px;
-      background: url(https://www.ankr.com/_next/static/images/guide1-c8020a5eb52cc041843e5fda0bfcf0d4.png)
-        center 0 no-repeat;
-      box-sizing: border-box;
-      align-items: center;
-      border-radius: 30px;
-      flex-direction: column;
-    }
-    @media (max-width: 959.95px) {
-      .jss166.jss166 {
-        background-image: url(https://www.ankr.com/_next/static/images/guide2-dafa4acc6f053bbe52d341060f4f5f58.png);
-      }
-    }
-    @media (max-width: 767.95px) {
-      .jss166.jss166 {
-        padding: 56px 0px;
-        background-image: url(https://www.ankr.com/_next/static/images/guide2-dafa4acc6f053bbe52d341060f4f5f58.png);
-      }
-    }
-    .jss167.jss167 {
+   
+   
+    .banner167{
       max-width: 900px;
       margin-bottom: 60px;
     }
     @media (max-width: 959.95px) {
-      .jss167.jss167 {
+      .banner167{
         max-width: 510px;
         margin-bottom: 40px;
       }
     }
-    .jss168.jss168 {
+    .banner1608 {
       color: #fff;
       width: 100%;
       font-size: 40px;
@@ -8542,11 +8322,11 @@
       margin-bottom: 20px;
     }
     @media (max-width: 767.95px) {
-      .jss168.jss168 {
+      .banner1608 {
         max-width: 270px;
       }
     }
-    .jss169.jss169 {
+    .banner1609 {
       color: #fff;
       margin: 0 auto;
       font-size: 16px;
@@ -8557,16 +8337,16 @@
       margin-bottom: 40px;
     }
     @media (max-width: 767.95px) {
-      .jss169.jss169 {
+      .banner1609 {
         max-width: 270px;
         margin-bottom: 36px;
       }
     }
-    .jss170 {
+    .jss1700 {
       display: flex;
       justify-content: center;
     }
-    .jss171.jss171 {
+    .banner171 {
       color: #fff;
       width: 280px;
       height: 54px;
@@ -8575,23 +8355,23 @@
       background-color: #1f2226;
     }
     @media (max-width: 767.95px) {
-      .jss171.jss171 {
+      .banner171 {
         width: auto;
         font-size: 16px;
         min-width: 260px;
         margin-bottom: 0;
       }
     }
-    .jss172 {
+    .jss1702 {
       color: inherit;
       text-decoration: none;
     }
-    .jss173 {
+    .jss1703 {
       opacity: 0;
       transform: translateY(10px);
       transition: opacity 0.8s, transform 0.8s;
     }
-    .jss174 {
+    .jss1704 {
       opacity: 1;
       transform: translateY(0);
     } 

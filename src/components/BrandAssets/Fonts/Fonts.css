@@ -1,0 +1,49 @@
+.jss457 {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+@media (max-width: 767.95px) {
+  .jss457 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+}
+.MuiGrid-spacing-xs-3-331 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.MuiGrid-spacing-xs-3-331 > .MuiGrid-item-308 {
+  padding: 12px;
+}
+.jss455.jss455 {
+  font-size: 28px;
+  background: #f2f5fa;
+  text-align: center;
+  padding-top: 44px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 42px;
+}
+@media (max-width: 767.95px) {
+  .jss455.jss455 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}
+.jss456.jss456 {
+  color: rgba(31, 34, 38, 0.5);
+  font-size: 16px;
+  font-family: "Inter-Medium", sans-serif;
+}
+
+.jss458.jss458 {
+  color: #356df3;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 18px;
+  margin-top: 16px;
+  align-items: center;
+  font-weight: 600;
+}

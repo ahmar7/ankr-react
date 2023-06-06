@@ -1,0 +1,81 @@
+.jss4856.jss4856 {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  font-family: "TT-Firs-Neue-Demi-Bold", sans-serif;
+  margin-bottom: 60px;
+  padding-top: 0 !important;
+}
+@media (max-width: 767.95px) {
+  .jss4856.jss4856 {
+    font-size: 36px;
+    margin-bottom: 48px;
+  }
+}
+.jss467 {
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+@media (max-width: 959.95px) {
+  .jss467 {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+}
+.jss469 {
+  width: calc(100% - 20px);
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 959.95px) {
+  .jss469 {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.jss4840 {
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 15px;
+  margin-top: 20px;
+  font-family: "Inter-Medium", sans-serif;
+  margin-bottom: 40px;
+}
+@media (max-width: 767.95px) {
+  .jss4840 {
+    margin-top: 16px;
+  }
+}
+
+.jss468 {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+@media (max-width: 959.95px) {
+  .jss468 {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+ .jss479.jss479 {
+      width: 100%;
+      bottom: 20px;
+      display: flex;
+      padding: 0px 24px;
+      position: absolute;
+      font-size: 14px;
+      justify-content: space-between;
+    }
+    .jss480.jss480 {
+      bottom: 42px;
+    }

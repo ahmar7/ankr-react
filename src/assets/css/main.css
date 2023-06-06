@@ -2867,7 +2867,7 @@ html {
         margin: 0 auto;
         max-width: 1460px;
         box-sizing: border-box;
-        padding:9px 0;
+        padding:18px 0;
       }
       .MuiPopover-paper-270 {
         outline: 0;
@@ -3996,7 +3996,6 @@ html {
       }
       .jss168 {
         font-size: 55px;
-        font-feature-settings: "ss02" on, "ss01" on;
       }
       @media (max-width: 959.95px) {
         .jss168 {
@@ -4222,7 +4221,6 @@ html {
         font-size: 14px;
         font-family: "Inter-Regular", sans-serif;
         margin-bottom: 12px;
-        font-feature-settings: "ss02" on, "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss323 {
@@ -4807,14 +4805,12 @@ html {
         margin-left: auto;
         margin-right: auto;
         letter-spacing: -0.02em;
-        font-feature-settings: "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss373 {
           font-size: 34px;
           line-height: 40px;
           letter-spacing: -0.01em;
-          font-feature-settings: "ss02" on, "ss01" on;
         }
       }
       .jss374 {
@@ -4855,7 +4851,6 @@ html {
         font-weight: 600;
         line-height: 40px;
         letter-spacing: -0.01em;
-        font-feature-settings: "ss02" on, "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss377 {
@@ -4871,7 +4866,6 @@ html {
         font-family: "Inter-Regular", sans-serif;
         font-weight: 400;
         line-height: 28px;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       @media (max-width: 767.95px) {
         .jss378 {
@@ -5412,7 +5406,6 @@ html {
         font-family: "Inter-Bold", sans-serif;
         font-weight: 700;
         line-height: 28px;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       @media (max-width: 767.95px) {
         .jss488 {
@@ -5426,7 +5419,6 @@ html {
         text-align: center;
         line-height: 64px;
         letter-spacing: -0.02em;
-        font-feature-settings: "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss489 {
@@ -5434,7 +5426,6 @@ html {
           margin-top: 12px;
           line-height: 40px;
           letter-spacing: -0.01em;
-          font-feature-settings: "ss01" on, "ss02" on, "calt" off;
         }
       }
       .jss490 {
@@ -5447,7 +5438,6 @@ html {
         line-height: 24px;
         margin-left: auto;
         margin-right: auto;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       @media (max-width: 767.95px) {
         .jss490 {
@@ -5495,7 +5485,6 @@ html {
         margin-left: auto;
         margin-right: auto;
         letter-spacing: -0.01em;
-        font-feature-settings: "ss02" on, "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss494 {
@@ -5503,7 +5492,6 @@ html {
           margin-top: 0;
           line-height: 28px;
           margin-left: 0;
-          font-feature-settings: "ss01" on, "ss02" on, "calt" off;
         }
       }
       .jss495 {
@@ -5533,14 +5521,12 @@ html {
         max-width: 820px;
         line-height: 64px;
         letter-spacing: -0.02em;
-        font-feature-settings: "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss497 {
           font-size: 30px;
           line-height: 33px;
           letter-spacing: -0.02em;
-          font-feature-settings: "ss02" on, "ss01" on;
         }
       }
       .jss498 {
@@ -5548,7 +5534,6 @@ html {
         font-family: "Inter-Regular", sans-serif;
         font-weight: 400;
         line-height: 28px;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       @media (max-width: 767.95px) {
         .jss498 {
@@ -5576,7 +5561,6 @@ html {
         font-weight: 400;
         line-height: 28px;
         border-radius: 36px;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       .jss500 img {
         width: 36px;
@@ -5601,7 +5585,6 @@ html {
         font-family: "Inter-Regular", sans-serif;
         font-weight: 400;
         line-height: 28px;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       @media (max-width: 767.95px) {
         .jss501 {
@@ -5647,7 +5630,6 @@ html {
         font-weight: 600;
         line-height: 40px;
         letter-spacing: -0.01em;
-        font-feature-settings: "ss02" on, "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss511 {
@@ -5660,7 +5642,6 @@ html {
         font-family: "Inter-Regular", sans-serif;
         font-weight: 400;
         line-height: 28px;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       @media (max-width: 767.95px) {
         .jss512 {
@@ -5675,7 +5656,6 @@ html {
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 0.01em;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       .jss514 {
         background: #356df3;
@@ -5698,7 +5678,6 @@ html {
         line-height: 20px;
         border-radius: 22px;
         letter-spacing: 0.01em;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       .jss517 {
         background: url(../img/arrow.svg)
@@ -5734,7 +5713,6 @@ html {
         text-align: center;
         line-height: 76px;
         letter-spacing: -0.02em;
-        font-feature-settings: "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss529 {
@@ -5774,14 +5752,12 @@ html {
         font-weight: 600;
         line-height: 52px;
         letter-spacing: -0.01em;
-        font-feature-settings: "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss532 {
           font-size: 30px;
           line-height: 33px;
           letter-spacing: -0.02em;
-          font-feature-settings: "ss02" on, "ss01" on;
         }
       }
       .jss533 {
@@ -5790,7 +5766,6 @@ html {
         font-family: "Inter-Bold", sans-serif;
         font-weight: 700;
         line-height: 28px;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       @media (max-width: 767.95px) {
         .jss533 {
@@ -5815,7 +5790,6 @@ html {
         align-items: center;
         font-family: "Inter-Bold", sans-serif;
         font-weight: 700;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       .jss535 img {
         width: 24px;
@@ -5945,14 +5919,12 @@ html {
         font-weight: 600;
         line-height: 76px;
         letter-spacing: -0.02em;
-        font-feature-settings: "ss01" on;
       }
       @media (max-width: 767.95px) {
         .jss564 {
           font-size: 34px;
           line-height: 40px;
           letter-spacing: -0.01em;
-          font-feature-settings: "ss02" on, "ss01" on;
         }
       }
       .jss565 {
@@ -5979,7 +5951,6 @@ html {
         font-family: "Inter-SemiBold", sans-serif;
         font-weight: 600;
         line-height: 24px;
-        font-feature-settings: "ss01" on, "ss02" on, "calt" off;
       }
       @media (max-width: 767.95px) {
         .jss567 {
