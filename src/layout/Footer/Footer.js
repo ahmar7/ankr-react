@@ -14,12 +14,12 @@ const Footer = () => {
                 <div className="jss639">
                   <a
                     className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss641 MuiButton-disableElevation-683"
-                    tabIndex={0}
-                    aria-disabled="false"
+                    
+                    
                     href="#"
-                    role="link"
+                    
                     target="_blank"
-                    rel="noreferrer"
+                    
                     aria-label="Coin Market Cap"
                   >
                     <span className="MuiButton-label-673">
@@ -42,12 +42,12 @@ const Footer = () => {
                   </a>
                   <a
                     className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss641 MuiButton-disableElevation-683"
-                    tabIndex={0}
-                    aria-disabled="false"
+                    
+                    
                     href="#"
-                    role="link"
+                    
                     target="_blank"
-                    rel="noreferrer"
+                    
                     aria-label="Coin gecko"
                   >
                     <span className="MuiButton-label-673">
@@ -118,12 +118,12 @@ const Footer = () => {
                   </a>
                   <a
                     className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss641 MuiButton-disableElevation-683"
-                    tabIndex={0}
-                    aria-disabled="false"
+                    
+                    
                     href="#"
-                    role="link"
+                    
                     target="_blank"
-                    rel="noreferrer"
+                    
                     aria-label="Binance"
                   >
                     <span className="MuiButton-label-673">
@@ -146,12 +146,12 @@ const Footer = () => {
                   </a>
                   <a
                     className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss641 MuiButton-disableElevation-683"
-                    tabIndex={0}
-                    aria-disabled="false"
+                    
+                    
                     href="#"
-                    role="link"
+                    
                     target="_blank"
-                    rel="noreferrer"
+                    
                     aria-label="crypto.com"
                   >
                     <span className="MuiButton-label-673">
@@ -203,9 +203,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -218,9 +218,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -233,9 +233,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -248,9 +248,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 jss706 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -263,9 +263,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -278,12 +278,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1246 jss705">
@@ -295,9 +295,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -317,9 +317,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -332,9 +332,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -347,9 +347,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -362,9 +362,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -384,12 +384,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1252 jss705">
@@ -401,12 +401,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1253 jss705">
@@ -418,12 +418,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1254 jss705">
@@ -435,12 +435,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1255 jss705">
@@ -459,9 +459,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -474,9 +474,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -489,9 +489,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -504,9 +504,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -519,9 +519,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="# "
                     >
                       <span className="MuiButton-label-673">
@@ -541,9 +541,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -556,9 +556,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -571,9 +571,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -586,12 +586,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1264 jss705">
@@ -603,9 +603,9 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
-                      role="link"
+                      
+                      
+                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -626,12 +626,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss733 jss705">
@@ -657,12 +657,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss734 jss705">
@@ -688,12 +688,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss735 jss705">
@@ -717,12 +717,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss736 jss705">
@@ -746,12 +746,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss737 jss705">
@@ -777,12 +777,12 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      tabIndex={0}
-                      aria-disabled="false"
+                      
+                      
                       href="#"
-                      role="link"
+                      
                       target="_blank"
-                      rel="noreferrer"
+                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss738 jss705">

@@ -2867,7 +2867,7 @@ html {
         margin: 0 auto;
         max-width: 1460px;
         box-sizing: border-box;
-        padding-top: 18px;
+        padding:9px 0;
       }
       .MuiPopover-paper-270 {
         outline: 0;

@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [toggleMobileMenu, settoggleMobileMenu] = useState(false);
   const [MenuName, setMenuName] = useState("Menu");
-  const [mobileStudy, setmobileStudy] = useState(false);
-  const [closeAnim, setcloseAnim] = useState(false);
+ 
 
   const [sideToggle, setsideToggle] = useState(false);
   const [fullFloat, setfullFloat] = useState(false);
@@ -15,7 +14,7 @@ const Header = () => {
   const [mobileMenu3, setmobileMenu3] = useState(false);
   const [mobileMenu4, setmobileMenu4] = useState(false);
   let toggleSide = () => {
-    if (sideToggle == true) {
+    if (sideToggle === true) {
       setsideToggle(false);
     } else {
       setsideToggle(true);
@@ -32,8 +31,7 @@ const Header = () => {
     setmobileMenu(true);
     setmobileMenu2(false);
     setmobileMenu4(false);
-    setfullFloat(false);
-    setmobileStudy(false);
+    setfullFloat(false); 
     setmobileMenu3(false);
   };
   let toggleFalse2 = () => {
@@ -45,8 +43,7 @@ const Header = () => {
   };
   let toggleTrue2 = () => {
     setmobileMenu4(false);
-    setmobileMenu(false);
-    setmobileStudy(false);
+    setmobileMenu(false); 
     setfullFloat(false);
     setmobileMenu3(false);
     setmobileMenu2(true);
@@ -60,8 +57,7 @@ const Header = () => {
   };
   let toggleTrue3 = () => {
     setmobileMenu(false);
-    setfullFloat(false);
-    setmobileStudy(false);
+    setfullFloat(false); 
     setmobileMenu2(false);
     setmobileMenu3(true);
     setmobileMenu4(false);
@@ -71,14 +67,12 @@ const Header = () => {
       setmobileMenu4(true);
     } else {
       setmobileMenu4(false);
-
-      setcloseAnim(true);
+ 
     }
   };
   let toggleTrue4 = () => {
     setmobileMenu(false);
-    setmobileMenu2(false);
-    setmobileStudy(false);
+    setmobileMenu2(false); 
     setmobileMenu3(false);
     setmobileMenu4(true);
     setfullFloat(false);
@@ -211,7 +205,7 @@ const Header = () => {
               className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss94 MuiButton-disableElevation-117"
               tabIndex={0}
               aria-disabled="false"
-              role="link"
+              
               aria-label="ANKR"
               to ="/"
             >
@@ -287,7 +281,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
                           <div className="img-cont">
@@ -296,7 +290,7 @@ const Header = () => {
                           </div>
                         </div>
 
-                        <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
+                        <p className="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
                           Distributed, high performance RPC services. Connect
                           and start building for free.
                         </p>
@@ -305,7 +299,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
                           <div className="img-cont">
@@ -314,7 +308,7 @@ const Header = () => {
                           </div>
                         </div>
 
-                        <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
+                        <p className="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
                           Distributed, high performance RPC services. Connect
                           and start building for free.
                         </p>
@@ -323,7 +317,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
                           <div className="img-cont">
@@ -332,7 +326,7 @@ const Header = () => {
                           </div>
                         </div>
 
-                        <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
+                        <p className="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
                           Distributed, high performance RPC services. Connect
                           and start building for free.
                         </p>
@@ -341,7 +335,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
                           <div className="img-cont">
@@ -350,7 +344,7 @@ const Header = () => {
                           </div>
                         </div>
 
-                        <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
+                        <p className="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
                           Distributed, high performance RPC services. Connect
                           and start building for free.
                         </p>
@@ -359,7 +353,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
                           <div className="img-cont">
@@ -368,7 +362,7 @@ const Header = () => {
                           </div>
                         </div>
 
-                        <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
+                        <p className="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
                           Distributed, high performance RPC services. Connect
                           and start building for free.
                         </p>
@@ -377,7 +371,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
                           <div className="img-cont">
@@ -386,7 +380,7 @@ const Header = () => {
                           </div>
                         </div>
 
-                        <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
+                        <p className="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
                           Distributed, high performance RPC services. Connect
                           and start building for free.
                         </p>
@@ -395,7 +389,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             RPC Service
                           </h4>
                           <div className="img-cont">
@@ -404,7 +398,7 @@ const Header = () => {
                           </div>
                         </div>
 
-                        <p class="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
+                        <p className="MuiTypography-root-134 jss3519 MuiTypography-body1-136">
                           Distributed, high performance RPC services. Connect
                           and start building for free.
                         </p>
@@ -451,7 +445,7 @@ const Header = () => {
                           className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss2938 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                           tabIndex={0}
                           aria-disabled="false"
-                          role="link"
+                          
                           href="/case-studies/bnb/"
                         >
                           <span className="MuiButton-label-107">
@@ -492,7 +486,7 @@ const Header = () => {
                           className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss2938 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                           tabIndex={0}
                           aria-disabled="false"
-                          role="link"
+                          
                           href="/case-studies/sushi/"
                         >
                           <span className="MuiButton-label-107">
@@ -533,7 +527,7 @@ const Header = () => {
                           className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss2938 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                           tabIndex={0}
                           aria-disabled="false"
-                          role="link"
+                          
                           href="/case-studies/bomb/"
                         >
                           <span className="MuiButton-label-107">
@@ -574,7 +568,7 @@ const Header = () => {
                           className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss2938 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                           tabIndex={0}
                           aria-disabled="false"
-                          role="link"
+                          
                           href="/case-studies/meta-apes/"
                         >
                           <span className="MuiButton-label-107">
@@ -614,7 +608,7 @@ const Header = () => {
                           className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss2938 jss2939 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                           tabIndex={0}
                           aria-disabled="false"
-                          role="link"
+                          
                           href="/app-chains/"
                         >
                           <span className="MuiButton-label-107">
@@ -688,7 +682,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Docs
                           </h4>
                           <div className="img-cont">
@@ -701,7 +695,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Grants & Programs
                           </h4>
                           <div className="img-cont">
@@ -714,7 +708,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Tutorials
                           </h4>
                           <div className="img-cont">
@@ -727,7 +721,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Github
                           </h4>
                           <div className="img-cont">
@@ -782,7 +776,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Ankr Network
                           </h4>
                           <div className="img-cont">
@@ -795,9 +789,9 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <span class="jss7737 jss7738 jss7739">new</span>
+                          <span className="jss7737 jss7738 jss7739">new</span>
 
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Ankr Whitepaper
                           </h4>
                           <div className="img-cont">
@@ -810,8 +804,8 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <span class="jss7737 jss7738">beta</span>
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <span className="jss7737 jss7738">beta</span>
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Ambassador Program
                           </h4>
                           <div className="img-cont">
@@ -824,7 +818,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Node Providers
                           </h4>
                           <div className="img-cont">
@@ -884,7 +878,7 @@ const Header = () => {
                         className="link-float"
                       >
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             About Us
                           </h4>
                           <div className="img-cont">
@@ -897,7 +891,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Press
                           </h4>
                           <div className="img-cont">
@@ -910,7 +904,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Blog
                           </h4>
                           <div className="img-cont">
@@ -923,7 +917,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Careers
                           </h4>
                           <div className="img-cont">
@@ -936,7 +930,7 @@ const Header = () => {
                     <div className="bottom-sec">
                       <a href="" className="link-float">
                         <div className="link-heading">
-                          <h4 class="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
+                          <h4 className="MuiTypography-root-134 jss3511 MuiTypography-h4-142">
                             Brand Assets
                           </h4>
                           <div className="img-cont">
@@ -961,7 +955,7 @@ const Header = () => {
       {/* Popup */}
       {sideToggle && (
         <div
-          role="presentation"
+           
           onClick={toggleSide}
           className="__packageName__-MuiPopover-root"
           style={{ position: "fixed", zIndex: 99999, inset: "0px" }}
@@ -1441,7 +1435,7 @@ const Header = () => {
                 className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                 tabIndex={0}
                 aria-disabled="false"
-                role="link"
+                
                 href="/case-studies/bnb/"
               >
                 <span className="MuiButton-label-107">
@@ -1481,7 +1475,7 @@ const Header = () => {
                 className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                 tabIndex={0}
                 aria-disabled="false"
-                role="link"
+                
                 href="/case-studies/sushi/"
               >
                 <span className="MuiButton-label-107">
@@ -1522,7 +1516,7 @@ const Header = () => {
                 className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                 tabIndex={0}
                 aria-disabled="false"
-                role="link"
+                
                 href="/case-studies/bomb/"
               >
                 <span className="MuiButton-label-107">
@@ -1563,7 +1557,7 @@ const Header = () => {
                 className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                 tabIndex={0}
                 aria-disabled="false"
-                role="link"
+                
                 href="/case-studies/meta-apes/"
               >
                 <span className="MuiButton-label-107">
@@ -1603,7 +1597,7 @@ const Header = () => {
                 className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1285 jss1286 MuiButton-textPrimary-109 MuiButton-disableElevation-117"
                 tabIndex={0}
                 aria-disabled="false"
-                role="link"
+                
                 href="/app-chains/"
               >
                 <span className="MuiButton-label-107">

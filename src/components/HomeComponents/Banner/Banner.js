@@ -2,23 +2,24 @@ import React from 'react';
 import './Banner.css'
 import { Build } from "../../../utils/allImg";
 import AnimationsVideo from "../../../assets/img/Animation.mp4";
+import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
       <section className="MuiPaper-root-178 jss165 MuiPaper-elevation0-181">
         <div className="MuiBox-root-234 jss235 jss231">
           <a
             className="MuiButtonBase-root-263 MuiButton-root-236 MuiButton-text-238 jss232 jss233 MuiButton-textPrimary-239 MuiButton-disableElevation-247"
-            tabIndex={0}
-            aria-disabled="false"
-            role="link"
-            target="_self"
+            
+            
+            
+            
             href="/app-chains/"
           >
             <span className="MuiButton-label-237">Ankr AppChains</span>
           </a>
           <button
             className="MuiButtonBase-root-263 MuiButton-root-236 MuiButton-text-238 jss232 MuiButton-disableElevation-247"
-            tabIndex={0}
+            
             type="button"
           >
             <span className="MuiButton-label-237">
@@ -42,10 +43,10 @@ const Banner = () => {
           </button>
           <a
             className="MuiButtonBase-root-263 MuiButton-root-236 MuiButton-text-238 jss232 MuiButton-textPrimary-239 MuiButton-disableElevation-247"
-            tabIndex={0}
-            aria-disabled="false"
-            role="link"
-            target="_self"
+            
+            
+            
+            
             href="/app-chains/configurator/"
           >
             <span className="MuiButton-label-237">AppChain Configurator</span>
@@ -66,24 +67,20 @@ const Banner = () => {
             <div className="jss172">
               <a
                 className="MuiButtonBase-root-263 MuiButton-root-236 MuiButton-contained-244 jss173 MuiButton-containedPrimary-245 MuiButton-disableElevation-247"
-                tabIndex={0}
-                aria-disabled="false"
-                role="link"
+                
+                
+                
                 href="/app-chains-configurator/"
               >
                 <span className="MuiButton-label-237">Build now</span>
               </a>
-              <a
+              <Link
                 className="MuiButtonBase-root-263 MuiButton-root-236 MuiButton-contained-244 jss173 MuiButton-containedSecondary-246 MuiButton-disableElevation-247"
-                tabIndex={0}
-                aria-disabled="false"
-                href="https://chainscanner.xyz/"
-                role="link"
-                target="_blank"
-                rel="noreferrer"
+                 to=""
+                
               >
                 <span className="MuiButton-label-237">View All AppChains</span>
-              </a>
+              </Link>
             </div>
             <div className="jss174">
               <p className="MuiTypography-root-281 jss175 MuiTypography-body1-283">
