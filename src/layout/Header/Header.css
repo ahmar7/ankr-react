@@ -672,7 +672,6 @@
   .float-dv {
     animation: dropmovefirst 0.2s forwards;
   }
-   
 }
 .float-dv {
   position: absolute;
@@ -698,14 +697,14 @@
   align-items: center;
   gap: 10px;
 }
-.link-heading img{ 
+.link-heading img {
   transition: all 0.3s ease;
 }
-.link-heading:hover img{
+.link-heading:hover img {
   transition: all 0.3s ease;
-  margin-left:4px;
+  margin-left: 4px;
 }
-.img-cont{
+.img-cont {
   display: flex;
   align-items: center;
   width: 20px;
@@ -734,13 +733,22 @@
 /* .float-dv{
   display: none;
 } */
-@media (min-width:960px) {
+@media (min-width: 960px) {
   .closeAn .float-dv {
-  
-  animation: dropmoveclose 0.3s forwards !important;
-  /* display: none; */
-}
-  
+    animation: dropmoveclose 0.3s forwards !important;
+    /* display: none; */
+  }
+  .full-float {
+    transition: all 0.3s ease;
+  }
+  .hide-it.full-float {
+    /* display: none !important;  */
+    /* animation:none; */
+    position: absolute;
+    /* animation: lastf 1.2s forwards; */
+    top: -500%;
+    transition: all 1s ease;
+  }
 }
 /* .jss1229:hover .float-dv,
 .jss1229:hover .float-overlay
@@ -797,13 +805,11 @@
   box-shadow: 0 0 25px rgba(31, 34, 38, 0.1), 0 5px 100px rgba(31, 34, 38, 0.15);
   background-color: #fff;
   position: fixed;
-  animation: mymove 0.3s forwards;
+  top: 67px;
+  /* animation: mymove 0.3s forwards; */
   z-index: 1112;
 }
-.topnotch{ 
-  animation: lastf 0.3s forwards;
-  
-}
+
 .jss751 {
   overflow: hidden;
   background: #ffffff;
@@ -1274,6 +1280,9 @@
   .MuiContainer-fixed-1270 {
     max-width: 960px;
   }
+  .custom-float {
+    display: none !important;
+  }
 }
 @media (min-width: 1280px) {
   .MuiContainer-fixed-1270 {
@@ -1313,17 +1322,16 @@
     max-width: 1440px;
   }
 }
-.custom-float {
-  display: none !important;
-}
+
 @media (max-width: 960px) {
   .active-bar .custom-float {
     display: block !important;
   }
+  .closeAn .custom-cm {
+    animation: dropmovefour 1s forwards;
+  }
   .closeAn .float-dv,
-  .closeAn .float-dv.alters-section
-  {
-
+  .closeAn .float-dv.alters-section {
     animation: dropmovethree 0.3s forwards;
   }
   .float-dv {
@@ -1622,15 +1630,17 @@
     top: -500px;
   }
   to {
-    top: 63px;
+    top: 67px;
   }
 }
 @keyframes lastf {
   from {
-    top: 63px;
+    top: 67px;
+    visibility: hidden;
   }
   to {
-    top: -500px;
+    visibility: hidden;
+    top: -500%;
   }
 }
 @keyframes dropmovefirst {
@@ -1652,9 +1662,8 @@
     /* top: 0px; */
     /* height: 0; */
     /* opacity: 1; */
-   
+    visibility: hidden;
     transform: scale(1);
-    
   }
   50% {
     /* height: 100%; */
@@ -1662,13 +1671,13 @@
     /* transform: scale(0); */
     /* top: 80px; */
   }
-  100%{ 
+  100% {
     transform: scale(0);
     /* opacity: 0; */
     visibility: hidden;
-    
   }
 }
+
 @keyframes dropmovetwo {
   0% {
     /* top: 0px; */
@@ -1683,9 +1692,8 @@
 
     /* top: 80px; */
   }
-  100%{
+  100% {
     height: auto;
-
   }
 }
 @keyframes dropmovethree {
@@ -1702,8 +1710,25 @@
 
     /* top: 80px; */
   }
-  100%{
+  100% {
     height: 0;
+  }
+}
+@keyframes dropmovefour {
+  0% {
+    /* top: 0px; */
+    /* margin-top: -20px; */
+    height: 0;
+    z-index: -9999;
+    height: 500px;
+  }
+  50% {
+    z-index: 999;
+    margin-top: 0;
 
+    /* top: 80px; */
+  }
+  100% {
+    height: 0;
   }
 }

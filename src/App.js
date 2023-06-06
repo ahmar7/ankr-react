@@ -1,13 +1,14 @@
  
-import './App.css';
-import Home from './pages/Home';
-// import './assets/css/font-sheet.css'
+import React from 'react';
+import './App.css';  
+
 import './assets/css/main.css'
 import './assets/css/styles.css'
+import Router from "./config/Router";
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Router />
     </div>
   );
 }

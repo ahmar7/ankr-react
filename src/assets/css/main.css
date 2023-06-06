@@ -2828,7 +2828,7 @@ html {
         z-index: 1310;
         box-shadow: 0px 3px 16px rgba(26, 36, 57, 0.1);
         transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms !important;
-        padding-bottom: 17px;
+        /* padding-bottom: 17px; */
         background-color: #fff;
         transition-property: transform, box-shadow, padding-top, padding-bottom,
           background-color !important;
