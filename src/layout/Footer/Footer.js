@@ -14,12 +14,8 @@ const Footer = () => {
                 <div className="jss639">
                   <a
                     className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss641 MuiButton-disableElevation-683"
-                    
-                    
                     href="#"
-                    
                     target="_blank"
-                    
                     aria-label="Coin Market Cap"
                   >
                     <span className="MuiButton-label-673">
@@ -42,12 +38,8 @@ const Footer = () => {
                   </a>
                   <a
                     className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss641 MuiButton-disableElevation-683"
-                    
-                    
                     href="#"
-                    
                     target="_blank"
-                    
                     aria-label="Coin gecko"
                   >
                     <span className="MuiButton-label-673">
@@ -118,12 +110,8 @@ const Footer = () => {
                   </a>
                   <a
                     className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss641 MuiButton-disableElevation-683"
-                    
-                    
                     href="#"
-                    
                     target="_blank"
-                    
                     aria-label="Binance"
                   >
                     <span className="MuiButton-label-673">
@@ -146,12 +134,8 @@ const Footer = () => {
                   </a>
                   <a
                     className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss641 MuiButton-disableElevation-683"
-                    
-                    
                     href="#"
-                    
                     target="_blank"
-                    
                     aria-label="crypto.com"
                   >
                     <span className="MuiButton-label-673">
@@ -190,7 +174,6 @@ const Footer = () => {
                       </svg>
                     </span>
                   </a>
-            
                 </div>
               </div>
             </div>
@@ -203,9 +186,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -218,9 +198,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -233,9 +210,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -248,9 +222,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 jss706 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -263,9 +234,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -278,12 +246,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1246 jss705">
@@ -295,9 +259,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -317,9 +278,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -332,9 +290,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -347,9 +302,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -362,9 +314,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -384,12 +333,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1252 jss705">
@@ -401,12 +346,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1253 jss705">
@@ -418,12 +359,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1254 jss705">
@@ -435,12 +372,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1255 jss705">
@@ -459,9 +392,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -474,9 +404,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -489,9 +416,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -504,9 +428,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -519,9 +440,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="# "
                     >
                       <span className="MuiButton-label-673">
@@ -541,9 +459,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -556,9 +471,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -571,9 +483,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -586,12 +495,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss1264 jss705">
@@ -603,9 +508,6 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
-                      
                       href="#"
                     >
                       <span className="MuiButton-label-673">
@@ -626,12 +528,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss733 jss705">
@@ -657,12 +555,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss734 jss705">
@@ -688,12 +582,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss735 jss705">
@@ -717,12 +607,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss736 jss705">
@@ -746,12 +632,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss737 jss705">
@@ -777,12 +659,8 @@ const Footer = () => {
                   <li className="jss703">
                     <a
                       className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      
-                      
                       href="#"
-                      
                       target="_blank"
-                      
                     >
                       <span className="MuiButton-label-673">
                         <div className="MuiBox-root-707 jss738 jss705">
@@ -808,6 +686,75 @@ const Footer = () => {
                 </ul>
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="jss739">
+          <div className="MuiContainer-root-630 jss740 MuiContainer-maxWidthLg-636">
+            <div className="MuiBox-root-707 jss747 jss741">
+              <div className="jss748 jss742">
+                <a
+                  className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss749 MuiButton-textPrimary-675 MuiButton-disableElevation-683"
+                  tabIndex={0}
+                  aria-disabled="false"
+                  role="link"
+                  aria-label="ANKR"
+                  href="/"
+                >
+                  <span className="MuiButton-label-673">
+                    <svg
+                      className="jss750"
+                      fill="none"
+                      height={32}
+                      viewBox="0 0 104 32"
+                      width={104}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M15.344 2.441l9.008 4.776c1.382.83 2.676 1.797 2.736 4.647v2.286h-3.541v-3.126L13.58 5.671 3.54 11.024v3.127H0v-2.287c.054-2.835 1.338-3.808 2.711-4.632l9.102-4.796a3.77 3.77 0 0 1 3.53.005zm.005 23.419l8.193-4.588v-3.418h3.54v2.282c-.054 2.85-1.352 3.822-2.735 4.647l-9.003 4.776a3.77 3.77 0 0 1-3.531.005L2.71 24.768C1.338 23.943.06 22.966 0 20.136v-2.282h3.546v3.418l8.267 4.593v-3.71c-2.884-.676-4.776-3.017-4.776-6.158 0-3.802 2.628-6.355 6.544-6.355 3.916 0 6.543 2.553 6.543 6.355 0 3.136-1.896 5.482-4.775 6.159zM13.58 12.768c-2.1 0-3.255 1.145-3.255 3.23 0 2.024 1.215 3.23 3.255 3.23s3.254-1.21 3.254-3.23c0-2.085-1.155-3.23-3.254-3.23zm75.435-4.46h-4.934l-6.34 6.5V5.102h-4.07v19.65h4.07v-4.918l2.093-2.144 5.522 7.062h4.568L82.374 15.1zm6.524 1.94c.77-.77 2.84-2.37 6.746-2.37h.751l.014 3.64-7.511.03v13.205h-4.134V8.293h4.134zM64.526 7.875c-3.121 0-5.082 2.02-5.225 2.178V8.294h-4.133V24.754H59.3V11.183h3.072c.158 0 .311.004.46.01 1.031.034 1.817.202 2.4.508.192.109.37.232.533.366.874.78 1.106 2.108 1.106 4.089v8.603h4.07v-9.833c-.006-4.074-1.872-7.052-6.416-7.052zm-18.203.968a6.04 6.04 0 0 1 1.807 1.703V8.29h4.134v16.46H48.13v-2.42c-.474.913-1.338 1.723-2.558 2.261a7.18 7.18 0 0 1-1.081.38l-.06.016a9.041 9.041 0 0 1-2.177.266 8.932 8.932 0 0 1-3.378-.662c-3.2-1.303-5.452-4.41-5.452-8.034 0-4.8 3.955-8.697 8.83-8.697 1.466 0 2.85.355 4.069.983zm-8.657 7.718c0 3.131 2.084 5.304 5.304 5.304 2.805 0 5.304-1.99 5.304-5.304 0-3.383-2.415-5.304-5.304-5.304-3.28 0-5.304 1.98-5.304 5.304z"
+                        fill="currentColor"
+                        fillRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <p className="MuiTypography-root-642 jss743 MuiTypography-subtitle2-654">
+                <span>
+                  © 2023 Ankr All rights reserved |{" "}
+                  <a href="mailto:info@ankr.com" rel="noopener noreferrer">
+                    info@ankr.com
+                  </a>
+                </span>
+              </p>
+              <ul className="jss744">
+                <li className="jss745">
+                  <a
+                    className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss746 MuiButton-disableElevation-683"
+                    tabIndex={0}
+                    aria-disabled="false"
+                    role="link"
+                    href="/terms/"
+                  >
+                    <span className="MuiButton-label-673">
+                      Terms of service
+                    </span>
+                  </a>
+                </li>
+                <li className="jss745">
+                  <a
+                    className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss746 MuiButton-disableElevation-683"
+                    tabIndex={0}
+                    aria-disabled="false"
+                    role="link"
+                    href="/privacy-policy/"
+                  >
+                    <span className="MuiButton-label-673">Privacy Policy</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

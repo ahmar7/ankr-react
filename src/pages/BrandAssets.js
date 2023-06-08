@@ -5,6 +5,7 @@ import Banner from '../components/BrandAssets/Banner/Banner';
 import Logos from '../components/BrandAssets/Logos/Logos';
 import Fonts from '../components/BrandAssets/Fonts/Fonts';
 import Colors from '../components/BrandAssets/Colors/Colors';
+import Badges from '../components/BrandAssets/Badges/Badges';
 
 const BrandAssets = () => {
     return (
@@ -15,6 +16,7 @@ const BrandAssets = () => {
             <Logos/>
             <Fonts/>
             <Colors/>
+            <Badges/>
         </div>
         <Footer />
       </div>

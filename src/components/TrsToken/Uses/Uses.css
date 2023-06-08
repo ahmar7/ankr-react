@@ -1,0 +1,91 @@
+.customU1 {
+  gap: 80px;
+  display: grid;
+  padding: 0 0 80px;
+}
+@media (min-width: 960px) {
+  .customU1 {
+    gap: 0 60px;
+    padding: 0 0 120px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.customU2 {
+  color: #356df3;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.customU3 {
+  color: #1f2226;
+  font-size: 34px;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 16px;
+  font-feature-settings: "ss02" on, "ss01" on;
+}
+
+.customU4 {
+  display: flex;
+  margin-bottom: 16px;
+}
+.customU5 {
+  color: #2e343c;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 17px;
+  background: #f2f5fa;
+  line-height: 24px;
+  border-radius: 20px;
+}
+.customU5:not(:last-child) {
+  margin-right: 4px;
+}
+
+.customU6 {
+  color: #ffffff;
+  background: #356df3;
+}
+
+.cutomU7 {
+  color: #1f2226;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+.customU8 {
+  color: #2e343c;
+  font-size: 20px;
+  line-height: 28px;
+}
+@media (max-width: 959.95px) {
+  .customU8 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+.customU8:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.cutomU9 {
+  gap: 9px;
+  color: #2e343c;
+  display: grid;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  grid-template-columns: auto 1fr;
+}
+.cutomU9:not(:last-child) {
+  margin-bottom: 12px;
+}
+.cutomU9 svg {
+  margin-top: 4px;
+}
