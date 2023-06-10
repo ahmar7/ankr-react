@@ -1,0 +1,44 @@
+.njss230 {
+  padding: 120px 0;
+}
+@media (max-width: 959.95px) {
+  .njss230 {
+    padding: 80px 0;
+  }
+}
+.njss231 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 960px) {
+  .njss231 {
+    max-width: 604px;
+    text-align: center;
+  }
+}
+.njss232 {
+  color: #82899a;
+  font-size: 17px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 8px;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+.njss233 {
+  color: #1f2226;
+  font-size: 34px;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 8px;
+  font-feature-settings: "ss01" on;
+}
+.njss234 {
+  color: #2e343c;
+  font-size: 17px;
+  font-family: Inter;
+  line-height: 24px;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}

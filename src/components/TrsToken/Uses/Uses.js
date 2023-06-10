@@ -196,7 +196,7 @@
 //             </div>
 //           </div>
 //           <img
-//             className="jss292 jss295"
+//             className="tjss292 tjss295"
 //             src="https://www.ankr.com/_next/static/images/circulation-2a5810d5c5b79c7cf43ff0dc8eff9c4e.png"
 //             alt=""
 //             style={{ marginTop: "76px" }}
@@ -407,7 +407,7 @@ const Uses = () => {
             </div>
           </div>
           <img
-            className="jss292 jss295"
+            className="tjss292 tjss295"
             src="https://www.ankr.com/_next/static/images/circulation-2a5810d5c5b79c7cf43ff0dc8eff9c4e.png"
             alt=""
             style={{ marginTop: "76px" }}

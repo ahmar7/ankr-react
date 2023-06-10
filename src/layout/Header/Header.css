@@ -249,6 +249,7 @@
 .justifyend {
   justify-content: end;
 }
+
 .jss2029.jss2029 {
   color: #356df3;
   margin: 0;
@@ -407,12 +408,15 @@
     padding-bottom: 30px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 1024px) {
   .jss2342.jss2342.white {
     color: white !important;
   }
   .jss2342.jss2342.white .jss2347 {
     color: white !important;
+  }
+  .block {
+    display: block !important;
   }
 }
 @media (min-width: 960px) {
@@ -668,7 +672,7 @@
 .jss1229.static {
   position: static !important;
 }
-@media (min-width: 961px) {
+@media (min-width: 1024px) {
   .float-dv {
     animation: dropmovefirst 0.2s forwards;
   }
@@ -733,7 +737,7 @@
 /* .float-dv{
   display: none;
 } */
-@media (min-width: 960px) {
+@media (min-width: 1024px) {
   .closeAn .float-dv {
     animation: dropmoveclose 0.3s forwards !important;
     /* display: none; */
@@ -1231,7 +1235,25 @@
   font-weight: 400;
   line-height: 20px;
 }
-
+.MuiAppBar-positionFixed-18 {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: absolute;
+}
+@media (max-width: 1024px) {
+  .MuiAppBar-positionFixed-18 {
+    position: fixed !important;
+  }
+}
+.active-header {
+  position: fixed;
+  top: 0;
+  animation: headerdown 0.3s ease forwards;
+}
+.no-shadow .active-header {
+  box-shadow: none !important;
+}
 .MuiContainer-root-1268 {
   width: 100%;
   display: block;
@@ -1276,7 +1298,7 @@
     max-width: 768px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 1024px) {
   .MuiContainer-fixed-1270 {
     max-width: 960px;
   }
@@ -1323,7 +1345,13 @@
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
+  header {
+    box-shadow: none !important;
+  }
+  .desk-cl {
+    margin-top: 78px !important;
+  }
   .active-bar .custom-float {
     display: block !important;
   }
@@ -1677,8 +1705,16 @@
 .icon {
   display: flex;
 }
+.MuiContainer-root-81 {
+  transition: all 0.3s ease;
+}
+.active-header .MuiContainer-root-81,
+.no-shadow .MuiContainer-root-81 {
+  background-color: white !important;
+  transition: all 0.3s ease;
+}
 
-@media (min-width: 960px) {
+@media (min-width: 1024px) {
   .link-txt h3 {
     margin-bottom: 6px;
   }
@@ -1762,6 +1798,7 @@
     /* top: 0px; */
     /* height: 0; */
     transform: scale(0.7);
+    visibility: hidden;
     z-index: -9999;
   }
   to {
@@ -1775,9 +1812,9 @@
   0% {
     /* top: 0px; */
     /* height: 0; */
-    /* opacity: 1; */
+    /* opacity: 0; */
     visibility: hidden;
-    transform: scale(1);
+    transform: scale(0.5);
   }
   50% {
     /* height: 100%; */
@@ -1844,5 +1881,15 @@
   }
   100% {
     height: 0;
+  }
+}
+@keyframes headerdown {
+  from {
+    box-shadow: none;
+    top: 0;
+  }
+  to {
+    top: 0;
+    box-shadow: 0px 3px 16px rgba(26, 36, 57, 0.1);
   }
 }

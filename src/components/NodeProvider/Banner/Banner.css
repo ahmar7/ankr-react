@@ -1,0 +1,124 @@
+.njss164 {
+  display: flex;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%),
+    linear-gradient(
+      270deg,
+      rgba(238, 169, 65, 0.3) 0%,
+      rgba(160, 129, 168, 0.3) 49.17%,
+      rgba(53, 109, 243, 0.3) 100%
+    );
+  padding-bottom: 120px;
+}
+.njss165 {
+  margin: 0 auto;
+  display: flex;
+  max-width: 540px;
+  margin-top: 140px;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 959.95px) {
+  .njss165 {
+    margin-top: 60px;
+  }
+}
+.njss166 {
+  margin: 0 30px;
+}
+.njss167 {
+  padding: 16px 24px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.njss168 {
+  font-size: 20px;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+}
+.njss169 {
+  background: linear-gradient(
+    269.98deg,
+    #2f62f1 0.02%,
+    #8d30ff 49.89%,
+    #ff7710 99.98%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.njss170 {
+  color: #2e343c;
+  font-size: 14px;
+  text-align: center;
+  font-family: Inter;
+  line-height: 20px;
+}
+.njss171 {
+  color: #1f2226;
+  font-size: 55px;
+  text-align: center;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+  font-feature-settings: "ss01" on;
+}
+@media (max-width: 959.95px) {
+  .njss171 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+.njss172 {
+  color: #2e343c;
+  margin: 0 auto 28px;
+  font-size: 20px;
+  max-width: 300px;
+  text-align: center;
+  font-family: Inter;
+  line-height: 28px;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+@media (max-width: 959.95px) {
+  .njss172 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+.njss173 {
+  color: black;
+}
+.njss174 {
+  gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 959.95px) {
+  .njss174 {
+    grid-template-columns: 1fr;
+  }
+}
+.njss175 {
+  color: #ffffff;
+  height: 48px;
+  display: flex;
+  padding: 0 24px;
+  font-size: 16px;
+  background: #356df3;
+  align-items: center;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 16px;
+  justify-content: center;
+  text-decoration: none;
+}
+.njss176 {
+  background: #eea941;
+}
+.node-pg .tjss438 {
+  background-color: #f2f5fa !important;
+}

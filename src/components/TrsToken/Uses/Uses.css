@@ -89,3 +89,38 @@
 .cutomU9 svg {
   margin-top: 4px;
 }
+
+.tjss292 {
+  margin: 0 auto;
+  max-width: 100%;
+}
+.tjss293 {
+  width: 100%;
+  max-width: 500px;
+}
+@media (max-width: 959.95px) {
+  .tjss293 {
+    margin-top: 20px;
+  }
+}
+.tjss294 {
+  align-items: center;
+}
+.tjss295 {
+  width: 100%;
+}
+@media (max-width: 959.95px) {
+  .tjss295 {
+    width: 100%;
+    max-width: 335px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 959.95px) {
+  .tjss310 img,
+  .tjss310 svg {
+    height: 50px;
+    margin-bottom: 16px;
+  }
+}

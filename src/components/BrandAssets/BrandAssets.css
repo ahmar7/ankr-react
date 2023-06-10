@@ -35,11 +35,7 @@ body::backdrop {
   background-color: #000000;
   -webkit-text-fill-color: #ffffff;
 }
-.MuiPaper-root-28 {
-  color: #1f2226;
-  transition: none;
-  background-color: #f2f5fa;
-}
+
 .MuiPaper-rounded-29 {
   border-radius: 4px;
 }
@@ -1391,25 +1387,7 @@ body::backdrop {
     font-size: 14px;
   }
 }
-.MuiTypography-h6-144 {
-  color: #1f2226;
-  font-size: 15px;
-  font-family: "Inter-Bold", sans-serif;
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0;
-}
-@media (max-width: 767.95px) {
-  .MuiTypography-h6-144 {
-    font-size: 16px;
-    line-height: 1.2;
-  }
-}
-@media (max-width: 1279.95px) {
-  .MuiTypography-h6-144 {
-    font-size: 14px;
-  }
-}
+
 .MuiTypography-subtitle1-145 {
   font-size: 16px;
   font-family: "Inter-Medium", sans-serif;
@@ -2599,45 +2577,7 @@ body::backdrop {
 .MuiTypography-displayBlock-1098 {
   display: block;
 }
-.MuiButton-root-106 {
-  color: #1f2226;
-  height: 54px;
-  padding: 15px 25px;
-  font-size: 18px;
-  min-width: 64px;
-  box-sizing: border-box;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: "Inter-Bold", sans-serif;
-  font-weight: 500;
-  line-height: 1.2;
-  border-radius: 12px;
-  text-transform: initial;
-  text-decoration: none;
-}
-.MuiButton-root-106:hover {
-  text-decoration: none;
-  background-color: rgba(31, 34, 38, 0.04);
-}
-.MuiButton-root-106.Mui-disabled {
-  color: rgba(0, 0, 0, 0.26);
-}
-@media (max-width: 1279.95px) {
-  .MuiButton-root-106 {
-    height: 48px;
-    padding: 14px 20px;
-    font-size: 15px;
-  }
-}
-@media (hover: none) {
-  .MuiButton-root-106:hover {
-    background-color: transparent;
-  }
-}
-.MuiButton-root-106:hover.Mui-disabled {
-  background-color: transparent;
-}
+
 .MuiButton-label-107 {
   width: 100%;
   display: inherit;
@@ -2820,21 +2760,7 @@ body::backdrop {
     background-color: #f50057;
   }
 }
-.MuiButton-disableElevation-117 {
-  box-shadow: none;
-}
-.MuiButton-disableElevation-117:hover {
-  box-shadow: none;
-}
-.MuiButton-disableElevation-117.Mui-focusVisible {
-  box-shadow: none;
-}
-.MuiButton-disableElevation-117:active {
-  box-shadow: none;
-}
-.MuiButton-disableElevation-117.Mui-disabled {
-  box-shadow: none;
-}
+ 
 .MuiButton-colorInherit-118 {
   color: inherit;
   border-color: currentColor;
@@ -3792,17 +3718,6 @@ body::backdrop {
   font-size: 22px;
 }
 
-.MuiAppBar-positionFixed-18 {
-  top: 0;
-  left: auto;
-  right: 0;
-  position: fixed;
-}
-@media print {
-  .MuiAppBar-positionFixed-18 {
-    position: absolute;
-  }
-}
 .MuiAppBar-positionAbsolute-19 {
   top: 0;
   left: auto;
@@ -3825,10 +3740,7 @@ body::backdrop {
   color: rgba(0, 0, 0, 0.87);
   background-color: #f5f5f5;
 }
-.MuiAppBar-colorPrimary-24 {
-  color: #fff;
-  background-color: #f2f5fa;
-}
+
 .MuiAppBar-colorSecondary-25 {
   color: #fff;
   background-color: #f50057;
@@ -3849,10 +3761,7 @@ body::backdrop {
 .jss10.jss10 {
   position: sticky;
 }
-.jss11.jss11 {
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #fff;
-}
+
 .jss12.jss12 {
   color: rgba(0, 0, 0, 0.87);
   box-shadow: none;
@@ -3896,26 +3805,7 @@ body::backdrop {
     padding-right: 24px;
   }
 }
-.MuiContainer-root-81.MuiContainer-root-81 {
-  padding: 0px 160px;
-  max-width: 1620px;
-  box-sizing: border-box;
-}
-@media (max-width: 1439.95px) {
-  .MuiContainer-root-81.MuiContainer-root-81 {
-    padding: 0px 80px;
-  }
-}
-@media (max-width: 1279.95px) {
-  .MuiContainer-root-81.MuiContainer-root-81 {
-    padding: 0px 40px;
-  }
-}
-@media (max-width: 767.95px) {
-  .MuiContainer-root-81.MuiContainer-root-81 {
-    padding: 0 20px;
-  }
-}
+
 .MuiContainer-disableGutters-82 {
   padding-left: 0;
   padding-right: 0;
@@ -3960,9 +3850,7 @@ body::backdrop {
     max-width: 1280px;
   }
 }
-.MuiContainer-maxWidthLg-87.MuiContainer-maxWidthLg-87 {
-  max-width: 1620px;
-}
+
 @media (min-width: 1440px) {
   .MuiContainer-maxWidthXl-88 {
     max-width: 1440px;
@@ -4584,21 +4472,7 @@ body::backdrop {
     transform: translateX(0);
   }
 }
-.jss89 {
-  display: grid;
-  position: relative;
-  align-items: center;
-  grid-template-columns: auto auto 4fr auto;
-}
-@media (max-width: 959.95px) {
-  .jss89 {
-    grid-template-columns: auto auto 1fr;
-  }
-}
-.jss89 .MuiIconButton-edgeStart {
-  margin: 0;
-  padding: 0;
-}
+ 
 .jss90 {
   top: 18px;
   right: 0;
@@ -4656,69 +4530,7 @@ body::backdrop {
     display: none;
   }
 }
-.jss96 {
-  width: max-content;
-  display: flex;
-  padding: 6px 12px;
-  align-items: center;
-  border-radius: 8px;
-  flex-direction: row;
-  justify-content: center;
-  text-decoration: none;
-}
-@media (max-width: 959.95px) {
-  .jss96 {
-    display: none;
-  }
-}
-.jss97 {
-  background: #ffffff;
-}
-.jss98 {
-  color: #356df3;
-  font-size: 14px;
-  font-family: Inter;
-  font-weight: 600;
-  line-height: 20px;
-}
-.jss99 {
-  color: #ffffff;
-  font-size: 14px;
-  font-family: Inter;
-  font-weight: 600;
-  line-height: 20px;
-}
-.jss100 {
-  background: #2e343c;
-}
-.jss100.white {
-  background: rgba(255, 255, 255, 0.1);
-}
-.jss100.white .jss99 {
-  color: #5a87f2;
-}
-.jss103.jss103 {
-  justify-content: flex-end;
-}
-.jss103.jss103 a span {
-  white-space: nowrap;
-}
-.jss104.jss104 {
-  padding-top: 0;
-  padding-bottom: 24px;
-}
-@media (min-width: 960px) {
-  .jss105.jss105 {
-    display: none;
-  }
-}
-.jss995 {
-  padding: 0;
-}
-.jss996 {
-  padding-bottom: 32px;
-  background-color: #fff;
-}
+
 @media (max-width: 767.95px) {
   .jss996 {
     padding-bottom: 0;
@@ -7306,10 +7118,7 @@ body::backdrop {
 .jss889.jss889 {
   width: 100%;
 }
-.jss890 {
-  opacity: 0;
-  transform: translateY(10px);
-}
+ 
 
 .jss900 {
   overflow: hidden;
@@ -8204,14 +8013,7 @@ body::backdrop {
 .__packageName__-__packageName__-jss3.__packageName__-__packageName__-jss3 {
   height: 670px;
 }
-.__packageName__-__packageName__-jss4.__packageName__-__packageName__-jss4 {
-  color: #82899a;
-  border: none;
-}
-.__packageName__-__packageName__-jss4.__packageName__-__packageName__-jss4:hover {
-  color: #356df3;
-  background-color: transparent;
-}
+ 
 .__packageName__-__packageName__-jss5.__packageName__-__packageName__-jss5 {
   color: #356df3;
 }

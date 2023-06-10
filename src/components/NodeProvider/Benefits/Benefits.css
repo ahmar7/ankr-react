@@ -1,0 +1,68 @@
+.njss190 {
+  color: #1f2226;
+  font-size: 34px;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 40px;
+  font-feature-settings: "ss01" on;
+}
+@media (max-width: 959.95px) {
+  .njss190 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+.njss191 {
+  color: #2e343c;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: auto;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+@media (max-width: 959.95px) {
+  .njss191 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+.njss192 {
+  margin: 130px 0 0 auto;
+  max-width: 160px;
+}
+@media (max-width: 959.95px) {
+  .njss192 {
+    max-width: 120px;
+    margin-top: 16px;
+  }
+}
+.njss193 {
+  width: 48px;
+  height: 48px;
+  margin: auto 0 0 auto;
+  display: flex;
+  background: #ffffff;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+@media (max-width: 959.95px) {
+  .njss193 {
+    margin-top: 48px;
+  }
+}
+@media (max-width: 959.95px) {
+  .njss194 {
+    background: #356df3;
+    box-shadow: 0px 0px 5px rgba(24, 48, 104, 0.15),
+      0px 0px 25px rgba(0, 0, 0, 0.1);
+  }
+  .njss194 span {
+    color: white;
+    display: initial;
+  }
+  .njss194 div:first-child {
+    display: none;
+  }
+}

@@ -1,0 +1,104 @@
+.tjss438 {
+  background: #f2f5fa;
+  padding-top: 120px;
+  padding-bottom: 200px;
+}
+@media (max-width: 959.95px) {
+  .tjss438 {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+}
+.tjss439 {
+  margin: 0 auto;
+  padding: 24px 28px;
+  max-width: 604px;
+  background: #ffffff;
+  border-radius: 28px;
+}
+.tjss440 {
+  color: #1f2226;
+  font-size: 34px;
+  text-align: center;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 20px;
+  letter-spacing: -0.01em;
+  font-feature-settings: "ss01" on;
+}
+.tjss441 {
+  gap: 0 16px;
+  cursor: pointer;
+  display: grid;
+  padding-top: 24px;
+  border-bottom: 1px solid rgba(31, 34, 38, 0.15);
+  padding-bottom: 24px;
+  grid-template-columns: 1fr auto;
+}
+.tjss441:first-child {
+  padding-top: 0;
+}
+.tjss442 {
+  color: #2e343c;
+  font-size: 17px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+.tjss443 {
+  color: #2e343c;
+  font-size: 17px;
+  margin-top: 8px;
+  font-family: Inter;
+  grid-column: 2 span;
+  line-height: 24px;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+.tjss444 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tjss445 {
+  gap: 8px;
+  display: grid;
+  margin-top: 24px;
+  justify-content: space-between;
+  grid-template-columns: minmax(auto, 183px) minmax(auto, 292px);
+}
+@media (max-width: 959.95px) {
+  .tjss445 {
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+}
+.accordion {
+  padding: 0 !important;
+}
+.tjss446 {
+  color: #2e343c;
+  font-size: 17px;
+  line-height: 24px;
+}
+.tjss447 {
+  color: #1f2226;
+  display: flex;
+  padding: 14px 20px;
+  font-size: 16px;
+  background: #f2f5fa;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+.tjss447 svg {
+  flex-shrink: 0;
+  margin-right: 8px;
+}

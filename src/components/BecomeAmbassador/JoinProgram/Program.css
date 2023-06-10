@@ -1,0 +1,238 @@
+.bjss289 {
+  background: linear-gradient(180deg, rgba(242, 245, 250, 0) 0%, #f2f5fa 100%),
+    linear-gradient(270deg, #f4e7de 0%, #e3dcfa 50%, #d0dcf9 100%, #dbe5f9 100%);
+  padding-top: 144px;
+  padding-bottom: 344px;
+}
+@media (max-width: 767.95px) {
+  .bjss289 {
+    padding-top: 46px;
+    padding-bottom: 382px;
+  }
+}
+.bjss290 {
+  font-size: 55px;
+  text-align: center;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+}
+@media (max-width: 767.95px) {
+  .bjss290 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+.bjss291 {
+  margin-top: 18px;
+}
+@media (max-width: 767.95px) {
+  .bjss291 {
+    margin-top: 8px;
+  }
+}
+@media (max-width: 767.95px) {
+  .bjss292 {
+    text-align: center;
+  }
+}
+.bjss293 {
+  width: 80%;
+}
+@media (max-width: 767.95px) {
+  .bjss293 {
+    max-width: 200px;
+  }
+}
+.bjss295 {
+  font-size: 24px;
+  margin-top: 52px;
+  line-height: 28px;
+}
+@media (max-width: 767.95px) {
+  .bjss295 {
+    font-size: 17px;
+    margin-top: 8px;
+    font-family: "Inter-Bold", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+.bjss296 {
+  font-size: 17px;
+  margin-top: 20px;
+  font-family: "Inter-Regular", sans-serif;
+  line-height: 24px;
+}
+@media (max-width: 767.95px) {
+  .bjss296 {
+    margin-top: 16px;
+  }
+}
+.bjss297 {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin-top: 38px;
+  font-family: "Inter-SemiBold", sans-serif;
+  line-height: 24px;
+  border-radius: 16px;
+}
+@media (max-width: 767.95px) {
+  .bjss297 {
+    width: 100%;
+    margin-top: 22px;
+  }
+}
+.bjss731 {
+  padding-top: 90px;
+}
+@media (max-width: 767.95px) {
+  .bjss731 {
+    padding-top: 56px;
+  }
+}
+.bjss732 {
+  font-size: 55px;
+  text-align: center;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+}
+@media (max-width: 767.95px) {
+  .bjss732 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+.bjss733 {
+  font-size: 20px;
+  max-width: 774px;
+  margin-top: 22px;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767.95px) {
+  .bjss733 {
+    font-size: 17px;
+    margin-top: 14px;
+    line-height: 24px;
+  }
+}
+.bjss734 {
+  margin-top: 44px;
+}
+@media (max-width: 767.95px) {
+  .bjss734 {
+    margin-top: 14px;
+  }
+}
+.bjss735 {
+  padding: 44px 60px 52px;
+  background: #fff;
+  border-radius: 28px;
+}
+@media (max-width: 767.95px) {
+  .bjss735 {
+    padding: 32px;
+  }
+}
+.bjss737 {
+  width: 34px;
+  height: 34px;
+}
+.bjss738 {
+  font-size: 20px;
+  margin-top: 36px;
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+}
+@media (max-width: 767.95px) {
+  .bjss738 {
+    font-size: 17px;
+    margin-top: 28px;
+    line-height: 24px;
+  }
+}
+.bjss739 {
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: 700;
+}
+.bjss744 {
+  padding-top: 320px;
+  padding-bottom: 120px;
+}
+@media (max-width: 767.95px) {
+  .bjss744 {
+    padding-top: 144px;
+    padding-bottom: 62px;
+  }
+}
+.bjss745 {
+  padding: 180px 48px 116px 48px;
+  position: relative;
+  background: radial-gradient(
+    55% 80% ellipse at 50% 0%,
+    rgba(140, 170, 243, 0.9),
+    rgba(181, 213, 255, 0.9),
+    #ffffff
+  );
+  text-align: center;
+  border-radius: 30px;
+}
+@media (max-width: 767.95px) {
+  .bjss745 {
+    padding-top: 104px;
+    padding-bottom: 70px;
+  }
+}
+.bjss746 {
+  top: 0;
+  left: 50%;
+  position: absolute;
+  max-width: 66%;
+  transform: translate(-50%, -56%);
+}
+.bjss747 {
+  font-size: 45px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+}
+@media (max-width: 767.95px) {
+  .bjss747 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+.bjss748 {
+  font-size: 20px;
+  max-width: 563px;
+  margin-top: 20px;
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767.95px) {
+  .bjss748 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.bjss749 {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin-top: 48px;
+  font-family: "Inter-SemiBold", sans-serif;
+  line-height: 24px;
+  border-radius: 16px;
+}
+@media (max-width: 767.95px) {
+  .bjss749 {
+    width: 100%;
+    margin-top: 28px;
+  }
+}

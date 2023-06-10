@@ -4,7 +4,7 @@ const Protocol = () => {
   return (
     <section className="MuiPaper-root jss281 MuiPaper-elevation0">
       <div className="MuiContainer-root MuiContainer-maxWidthLg">
-        <div className="customU1 jss294">
+        <div className="customU1 tjss294">
           <div>
             <div className="customU3">Protocol Governance</div>
             <div className="customU8">
@@ -59,7 +59,7 @@ const Protocol = () => {
             </div>
           </div>
           <img
-            className="jss292 jss293"
+            className="tjss292 tjss293"
             src="https://www.ankr.com/_next/static/images/image-86c790c29a7c4c36e7c1941d1ae074cd.png"
             alt=""
           />

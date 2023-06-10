@@ -1,0 +1,123 @@
+.njss222 {
+  gap: 16px;
+  display: grid;
+}
+@media (min-width: 960px) {
+  .njss222 {
+    padding: 28px;
+    grid-row: 2 span;
+    background: #2e343c;
+    box-shadow: 0px 0px 5px rgba(24, 48, 104, 0.15),
+      0px 0px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 959.95px) {
+  .njss222 {
+    padding: 16px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+}
+
+.njss223 {
+  gap: 40px 10px;
+  display: grid;
+  padding: 104px;
+  background: linear-gradient(180deg, #f2f5fa 0%, rgba(242, 245, 250, 0) 100%),
+    linear-gradient(
+      270deg,
+      rgba(238, 169, 65, 0.3) 0%,
+      rgba(160, 129, 168, 0.3) 49.17%,
+      rgba(53, 109, 243, 0.3) 100%
+    ),
+    #ffffff;
+  border-radius: 28px;
+  justify-content: space-between;
+}
+@media (min-width: 960px) {
+  .njss223 {
+    grid-template-rows: 1fr auto;
+    grid-template-columns: minmax(0, 264px) minmax(0, 600px);
+  }
+}
+@media (max-width: 959.95px) {
+  .njss223 {
+    padding: 28px 20px;
+  }
+}
+.njss224 {
+  color: #2e343c;
+  font-size: 20px;
+  font-family: Inter;
+  line-height: 28px;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+.njss225 {
+  color: #1f2226;
+  font-size: 20px;
+  font-family: Inter;
+  line-height: 28px;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}
+@media (max-width: 959.95px) {
+  .njss225 {
+    text-align: center;
+    margin-bottom: 4px;
+  }
+}
+.njss226 {
+  color: #1f2226;
+  font-size: 45px;
+  font-family: TT Firs Neue;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+  font-feature-settings: "ss01" on;
+}
+@media (max-width: 959.95px) {
+  .njss226 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+@media (min-width: 960px) {
+  .njss227 {
+    grid-row: 2 span;
+  }
+}
+.njss228 {
+  gap: 20px;
+  color: #2e343c;
+  display: grid;
+  font-size: 17px;
+  font-family: Inter;
+  line-height: 24px;
+  grid-template-columns: auto 1fr;
+}
+.njss228 a {
+  color: #356df3;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.njss228:not(:last-child) {
+  margin-bottom: 28px;
+}
+.njss229 {
+  color: #1f2226;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  font-size: 20px;
+  background: #ffffff;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 28px;
+  border-radius: 50%;
+  justify-content: center;
+  font-feature-settings: "ss01" on, "ss02" on, "calt" off;
+}

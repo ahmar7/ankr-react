@@ -1,0 +1,84 @@
+.bjss165 {
+  background: #fff;
+  text-align: center;
+  padding-top: 256px;
+  padding-bottom: 200px;
+}
+@media (max-width: 767.95px) {
+  .bjss165 {
+    padding-top: 80px;
+    padding-bottom: 96px;
+  }
+}
+.bjss166 {
+  font-size: 72px;
+  text-align: center;
+  line-height: 76px;
+  letter-spacing: -0.02em;
+}
+@media (max-width: 767.95px) {
+  .bjss166 {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+  }
+}
+.bjss167 {
+  background: linear-gradient(
+    270deg,
+    #ff820e 24.47%,
+    #7926ff 61.03%,
+    #356df3 93.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bjss168 {
+  font-size: 24px !important;
+  margin-top: 32px !important;
+  font-family: "Inter-Regular", sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 36px !important;
+}
+@media (max-width: 767.95px) {
+  .bjss168 {
+    font-size: 17px !important;
+    margin-top: 8px !important;
+    line-height: 24px !important;
+  }
+}
+.bjss169 {
+  padding: 16px 32px !important;
+  font-size: 16px !important;
+  margin-top: 60px !important;
+  font-family: "Inter-SemiBold", sans-serif !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  border-radius: 18px !important;
+}
+@media (max-width: 767.95px) {
+  .bjss169 {
+    width: 100% !important;
+    margin-top: 28px !important;
+  }
+}
+
+.MuiTypography-h2-237 {
+  color: #1f2226;
+  font-size: 55px;
+  font-family: "TT-Firs-Neue-Demi-Bold", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+@media (max-width: 767.95px) {
+  .MuiTypography-h2-237 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 1279.95px) {
+  .MuiTypography-h2-237 {
+    font-size: 30px;
+  }
+}
