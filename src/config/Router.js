@@ -5,6 +5,7 @@ import BrandAssets from "../pages/BrandAssets";
 import TrsToken from "../pages/TrsToken";
 import BecomeAmbassador from "../pages/BecomeAmbassador";
 import NodeProvider from "../pages/NodeProvider";
+import AboutUs from "../pages/AboutUs";
 
 export default function Router() {
   return (
@@ -15,6 +16,7 @@ export default function Router() {
         <Route path="trs-token" element={<TrsToken />} />
         <Route path="become-ambassador" element={<BecomeAmbassador />} />
         <Route path="node-provider" element={<NodeProvider />} />
+        <Route path="about-us" element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
   );

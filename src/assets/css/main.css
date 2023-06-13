@@ -1481,7 +1481,7 @@ body::backdrop {
   color: #1f2226;
   font-size: 18px;
   font-family: "Inter-Medium", sans-serif;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 1.2;
   letter-spacing: 0;
 }

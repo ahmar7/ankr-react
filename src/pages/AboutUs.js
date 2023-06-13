@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div>
       <Header />
-      <div className="jss6 jss7 desk-cl node-pg"></div>
+      <div className="jss6 jss7 desk-cl  "></div>
       <Footer />
     </div>
   );

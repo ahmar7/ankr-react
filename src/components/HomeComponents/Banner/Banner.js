@@ -7,6 +7,8 @@ const Banner = () => {
     return (
       <section className="MuiPaper-root-178 jss165 MuiPaper-elevation0-181">
         <div className="MuiBox-root-234 jss235 jss231">
+          {/*
+
           <a
             className="MuiButtonBase-root-263 MuiButton-root-236 MuiButton-text-238 jss232 jss233 MuiButton-textPrimary-239 MuiButton-disableElevation-247"
             
@@ -37,7 +39,7 @@ const Banner = () => {
                   stroke="currentColor"
                   strokeWidth="1.25"
                 />
-                {/* Code injected by live-server */}
+                
               </svg>
             </span>
           </button>
@@ -51,6 +53,8 @@ const Banner = () => {
           >
             <span className="MuiButton-label-237">AppChain Configurator</span>
           </a>
+
+          */}
         </div>
         <div className="MuiContainer-root-271 jss166 MuiContainer-maxWidthLg-277">
           <div className="jss167 jss279 jss280">

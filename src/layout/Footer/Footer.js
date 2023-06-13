@@ -478,7 +478,7 @@ const Footer = () => {
                           updates and events.
                         </div>
                         <div className="sub-btn">
-                          <button>Subscribe </button>
+                          <button>Subscribe</button>
                         </div>
                       </span>
                     </span>
