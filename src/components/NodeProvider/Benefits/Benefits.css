@@ -21,6 +21,13 @@
   margin-bottom: auto;
   font-feature-settings: "ss01" on, "ss02" on, "calt" off;
 }
+.block-display {
+  display: block !important;
+  color: #ffffff !important;
+}
+.none {
+  display: none !important;
+}
 @media (max-width: 959.95px) {
   .njss191 {
     font-size: 17px;
@@ -52,9 +59,11 @@
     margin-top: 48px;
   }
 }
+.njss194 {
+  background: #356df3 !important;
+}
 @media (max-width: 959.95px) {
   .njss194 {
-    background: #356df3;
     box-shadow: 0px 0px 5px rgba(24, 48, 104, 0.15),
       0px 0px 25px rgba(0, 0, 0, 0.1);
   }

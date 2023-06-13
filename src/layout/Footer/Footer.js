@@ -1,5 +1,5 @@
 import React from "react";
-import './Footer.css'
+import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="MuiPaper-root-571 jss568 MuiPaper-elevation0-574">
@@ -270,61 +270,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </li>
-              <li className="jss700 jss628">
-                <p className="MuiTypography-root-642 jss701 MuiTypography-body1-644">
-                  Case Studies
-                </p>
-                <ul className="jss702">
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss1248 jss705">
-                          BNB Chain
-                        </div>
-                      </span>
-                    </a>
-                  </li>
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss1249 jss705">
-                          SushiSwap
-                        </div>
-                      </span>
-                    </a>
-                  </li>
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss1250 jss705">
-                          BOMB Money
-                        </div>
-                      </span>
-                    </a>
-                  </li>
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss1251 jss705">
-                          Meta Apes
-                        </div>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
+
               <li className="jss700 jss628">
                 <p className="MuiTypography-root-642 jss701 MuiTypography-body1-644">
                   Developers
@@ -521,167 +467,21 @@ const Footer = () => {
               </li>
               <li className="jss700 jss628">
                 <p className="MuiTypography-root-642 jss701 MuiTypography-body1-644">
-                  Socials
+                  Newsletter
                 </p>
-
                 <ul className="jss702">
                   <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                      target="_blank"
-                    >
+                    <span className=" ">
                       <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss733 jss705">
-                          <svg
-                            fill="none"
-                            height={12}
-                            viewBox="0 0 14 12"
-                            width={14}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              clipRule="evenodd"
-                              d="M12.575 3.415c0-.132-.002-.262-.008-.39A5.9 5.9 0 0 0 14 1.485a5.562 5.562 0 0 1-1.65.452 2.937 2.937 0 0 0 1.262-1.65A5.464 5.464 0 0 1 11.79.99 2.862 2.862 0 0 0 9.694 0C8.107-.025 6.822 1.314 6.822 2.994c0 .239.025.47.073.695C4.506 3.535 2.391 2.292.975.417c-.246.449-.39.974-.39 1.537 0 1.063.507 2.008 1.278 2.567a2.765 2.765 0 0 1-1.3-.398v.039c0 1.486.99 2.732 2.303 3.023a2.707 2.707 0 0 1-1.297.044c.364 1.219 1.427 2.11 2.681 2.138A5.544 5.544 0 0 1 0 10.621 7.742 7.742 0 0 0 4.404 12c5.284 0 8.17-4.596 8.17-8.585z"
-                              fill="#82899a"
-                              fillRule="evenodd"
-                            />
-                          </svg>
-                          Twitter
+                        <div className="MuiBox-root-707 jss1261 alag jss705">
+                          Subscribe to the newsletter to hear about Polkadot
+                          updates and events.
+                        </div>
+                        <div className="sub-btn">
+                          <button>Subscribe </button>
                         </div>
                       </span>
-                    </a>
-                  </li>
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                      target="_blank"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss734 jss705">
-                          <svg
-                            fill="none"
-                            height={13}
-                            viewBox="0 0 15 13"
-                            width={15}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              clipRule="evenodd"
-                              d="M11.49 12.857a.72.72 0 0 0 .692.094.746.746 0 0 0 .452-.546C13.178 9.75 14.494 3.03 14.99.616a.52.52 0 0 0-.162-.492.485.485 0 0 0-.498-.091C11.709 1.04 3.638 4.19.339 5.46A.538.538 0 0 0 0 5.98c.008.23.156.43.37.496 1.48.46 3.422 1.1 3.422 1.1s.908 2.85 1.38 4.3c.06.182.197.325.378.375a.527.527 0 0 0 .506-.135l1.935-1.9s2.233 1.702 3.499 2.64zm-6.881-5.64l1.05 3.6.232-2.28 6.366-5.971a.186.186 0 0 0 .02-.245.173.173 0 0 0-.234-.042L4.609 7.216z"
-                              fill="#82899a"
-                              fillRule="evenodd"
-                            />
-                          </svg>
-                          Telegram
-                        </div>
-                      </span>
-                    </a>
-                  </li>
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                      target="_blank"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss735 jss705">
-                          <svg
-                            fill="none"
-                            height={14}
-                            viewBox="0 0 16 14"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M13.553 1.819a13.031 13.031 0 0 0-3.3-1.038 9.674 9.674 0 0 0-.423.878 12.12 12.12 0 0 0-3.659 0 9.38 9.38 0 0 0-.427-.878c-1.16.2-2.268.554-3.304 1.04C.351 4.978-.215 8.056.068 11.091a13.197 13.197 0 0 0 4.048 2.075c.326-.45.617-.926.867-1.429a8.527 8.527 0 0 1-1.365-.664c.115-.085.227-.173.335-.265 2.632 1.232 5.493 1.232 8.094 0 .11.092.222.18.335.265-.433.26-.891.485-1.368.666.25.501.54.98.867 1.428a13.171 13.171 0 0 0 4.051-2.076c.332-3.518-.568-6.568-2.379-9.272zm-8.21 7.406c-.791 0-1.44-.738-1.44-1.637s.635-1.637 1.44-1.637c.803 0 1.451.738 1.438 1.637 0 .899-.635 1.637-1.439 1.637zm5.315 0c-.79 0-1.439-.738-1.439-1.637s.635-1.637 1.439-1.637 1.452.738 1.438 1.637c0 .899-.634 1.637-1.438 1.637z"
-                              fill="#82899a"
-                            />
-                          </svg>
-                          Discord
-                        </div>
-                      </span>
-                    </a>
-                  </li>
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                      target="_blank"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss736 jss705">
-                          <svg
-                            fill="none"
-                            height={10}
-                            viewBox="0 0 16 10"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M4.513 0c2.492 0 4.512 2.034 4.512 4.544 0 2.509-2.02 4.543-4.512 4.543S0 7.053 0 4.544C0 2.034 2.02 0 4.513 0zm7.206.266c1.246 0 2.256 1.915 2.256 4.278 0 2.361-1.01 4.277-2.256 4.277-1.246 0-2.256-1.916-2.256-4.277S10.473.266 11.719.266zm3.488.446c.438 0 .793 1.715.793 3.832 0 2.115-.355 3.831-.793 3.831-.439 0-.794-1.715-.794-3.831 0-2.117.355-3.832.793-3.832z"
-                              fill="#82899a"
-                            />
-                          </svg>
-                          Medium
-                        </div>
-                      </span>
-                    </a>
-                  </li>
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                      target="_blank"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss737 jss705">
-                          <svg
-                            fill="none"
-                            height={16}
-                            viewBox="0 0 16 16"
-                            width={16}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              clipRule="evenodd"
-                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-2.705.325c.029-.106.043-.215.041-.325a1.167 1.167 0 0 0-1.976-.8 5.682 5.682 0 0 0-3.08-.984L8.8 3.72l1.712.36a.8.8 0 1 0 .104-.488L8.656 3.2a.25.25 0 0 0-.258.102.247.247 0 0 0-.038.09l-.592 2.776a5.709 5.709 0 0 0-3.12.984A1.168 1.168 0 1 0 3.36 9.064a2.141 2.141 0 0 0 0 .352c0 1.792 2.088 3.248 4.664 3.248s4.664-1.456 4.664-3.248a2.141 2.141 0 0 0 0-.352 1.166 1.166 0 0 0 .607-.74zM5.57 9.365a.801.801 0 1 1 1.133-1.133.801.801 0 0 1-1.133 1.134zm4.474 1.51a.216.216 0 0 1-.065.152L9.984 11a3.074 3.074 0 0 1-1.976.616 3.09 3.09 0 0 1-1.53-.336 3.074 3.074 0 0 1-.446-.28.216.216 0 0 1 .304-.304A2.613 2.613 0 0 0 8 11.2a2.625 2.625 0 0 0 1.672-.488.262.262 0 0 1 .159-.056.216.216 0 0 1 .213.219zm.104-1.272a.802.802 0 0 1-.316.061l.008-.032a.8.8 0 1 1 .8-.8.798.798 0 0 1-.492.77z"
-                              fill="#82899a"
-                              fillRule="evenodd"
-                            />
-                          </svg>
-                          Reddit
-                        </div>
-                      </span>
-                    </a>
-                  </li>
-                  <li className="jss703">
-                    <a
-                      className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss704 MuiButton-disableElevation-683"
-                      href="#"
-                      target="_blank"
-                    >
-                      <span className="MuiButton-label-673">
-                        <div className="MuiBox-root-707 jss738 jss705">
-                          <svg
-                            fill="none"
-                            height={14}
-                            viewBox="0 0 14 14"
-                            width={14}
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              clipRule="evenodd"
-                              d="M14 6.646v.749c0 .833.002 1.661-.046 2.494-.055 1.121-.308 2.114-1.13 2.935-.82.82-1.814 1.076-2.935 1.13-.847.048-1.689.047-2.536.046h-.706a44.11 44.11 0 0 1-2.537-.046c-1.12-.054-2.113-.308-2.934-1.13C.356 12.004.1 11.01.046 9.89A44.174 44.174 0 0 1 0 7.353v-.706c0-.846-.002-1.688.046-2.536C.1 2.99.354 1.997 1.176 1.176 1.996.356 2.99.1 4.11.046 4.958-.002 5.8 0 6.646 0h.707c.846 0 1.688-.002 2.536.046 1.121.054 2.114.308 2.935 1.13.82.82 1.075 1.814 1.13 2.935.047.847.046 1.688.045 2.535zM4.663 7a2.34 2.34 0 0 1 2.334-2.334c1.285 0 2.334 1.049 2.334 2.334S8.283 9.334 6.998 9.334A2.34 2.34 0 0 1 4.664 7zm2.334 3.592A3.587 3.587 0 0 1 3.406 7a3.587 3.587 0 0 1 3.592-3.592A3.587 3.587 0 0 1 10.59 7a3.587 3.587 0 0 1-3.592 3.592zm2.9-7.33a.838.838 0 1 0 1.678 0 .838.838 0 1 0-1.678 0z"
-                              fill="#82899a"
-                              fillRule="evenodd"
-                            />
-                          </svg>
-                          Instagram
-                        </div>
-                      </span>
-                    </a>
+                    </span>
                   </li>
                 </ul>
               </li>
@@ -728,29 +528,45 @@ const Footer = () => {
                   </a>
                 </span>
               </p>
-              <ul className="jss744">
-                <li className="jss745">
-                  <a
-                    className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss746 MuiButton-disableElevation-683"
-                    tabIndex={0}
-                    aria-disabled="false"
-                    role="link"
-                    href="/terms/"
-                  >
-                    <span className="MuiButton-label-673">
-                      Terms of service
-                    </span>
+              <ul className="jss744 social-ico">
+                <li>
+                  <a href="">
+                    <img
+                      src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPiAgICA8cGF0aCBkPSJNMjIsMy45OTljLTAuNzgsMC40NjMtMi4zNDUsMS4wOTQtMy4yNjUsMS4yNzZjLTAuMDI3LDAuMDA3LTAuMDQ5LDAuMDE2LTAuMDc1LDAuMDIzYy0wLjgxMy0wLjgwMi0xLjkyNy0xLjI5OS0zLjE2LTEuMjk5IGMtMi40ODUsMC00LjUsMi4wMTUtNC41LDQuNWMwLDAuMTMxLTAuMDExLDAuMzcyLDAsMC41Yy0zLjM1MywwLTUuOTA1LTEuNzU2LTcuNzM1LTRjLTAuMTk5LDAuNS0wLjI4NiwxLjI5LTAuMjg2LDIuMDMyIGMwLDEuNDAxLDEuMDk1LDIuNzc3LDIuOCwzLjYzYy0wLjMxNCwwLjA4MS0wLjY2LDAuMTM5LTEuMDIsMC4xMzljLTAuNTgxLDAtMS4xOTYtMC4xNTMtMS43NTktMC42MTdjMCwwLjAxNywwLDAuMDMzLDAsMC4wNTEgYzAsMS45NTgsMi4wNzgsMy4yOTEsMy45MjYsMy42NjJjLTAuMzc1LDAuMjIxLTEuMTMxLDAuMjQzLTEuNSwwLjI0M2MtMC4yNiwwLTEuMTgtMC4xMTktMS40MjYtMC4xNjUgYzAuNTE0LDEuNjA1LDIuMzY4LDIuNTA3LDQuMTM1LDIuNTM5Yy0xLjM4MiwxLjA4NC0yLjM0MSwxLjQ4Ni01LjE3MSwxLjQ4NkgyQzMuNzg4LDE5LjE0NSw2LjA2NSwyMCw4LjM0NywyMCBDMTUuNzc3LDIwLDIwLDE0LjMzNywyMCw4Ljk5OWMwLTAuMDg2LTAuMDAyLTAuMjY2LTAuMDA1LTAuNDQ3QzE5Ljk5NSw4LjUzNCwyMCw4LjUxNywyMCw4LjQ5OWMwLTAuMDI3LTAuMDA4LTAuMDUzLTAuMDA4LTAuMDggYy0wLjAwMy0wLjEzNi0wLjAwNi0wLjI2My0wLjAwOS0wLjMyOWMwLjc5LTAuNTcsMS40NzUtMS4yODEsMi4wMTctMi4wOTFjLTAuNzI1LDAuMzIyLTEuNTAzLDAuNTM4LTIuMzIsMC42MzYgQzIwLjUxNCw2LjEzNSwyMS42OTksNC45NDMsMjIsMy45OTl6Ii8+PC9zdmc+"
+                      alt=""
+                    />
                   </a>
                 </li>
-                <li className="jss745">
-                  <a
-                    className="MuiButtonBase-root-699 MuiButton-root-672 MuiButton-text-674 jss746 MuiButton-disableElevation-683"
-                    tabIndex={0}
-                    aria-disabled="false"
-                    role="link"
-                    href="/privacy-policy/"
-                  >
-                    <span className="MuiButton-label-673">Privacy Policy</span>
+                <li>
+                  <a href="">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMiAxMkMyMiAxNy41MjI4IDE3LjUyMjggMjIgMTIgMjJDNi40NzcxNSAyMiAyIDE3LjUyMjggMiAxMkMyIDYuNDc3MTUgNi40NzcxNSAyIDEyIDJDMTcuNTIyOCAyIDIyIDYuNDc3MTUgMjIgMTJaTTE4LjYxOTMgMTIuNDA2QzE4LjY1NTMgMTIuMjczOCAxOC42NzIzIDEyLjEzNyAxOC42NzAyIDEyQzE4LjY2IDExLjcxODUgMTguNTY4NSAxMS40NDU5IDE4LjQwNjcgMTEuMjE1M0MxOC4yNDUxIDEwLjk4NDYgMTguMDIwMSAxMC44MDU3IDE3Ljc1OSAxMC43QzE3LjQ5NzkgMTAuNTk0MyAxNy4yMTE4IDEwLjU2NjQgMTYuOTM1MiAxMC42MTk4QzE2LjY1ODcgMTAuNjcyOSAxNi40MDM0IDEwLjgwNSAxNi4yMDAyIDExQzE1LjkxNzcgMTAuODA4IDE1LjYyMTcgMTAuNjM2NSAxNS4zMTQ1IDEwLjQ4N0MxNC42OTk0IDEwLjE4NzMgMTQuMDQ0MyA5Ljk3OCAxMy4zNjk1IDkuODY1NTFDMTMuMDMyNSA5LjgwOTI2IDEyLjY5MTcgOS43NzcyNiAxMi4zNTAyIDkuNzcwMDFMMTMuMDAwMiA2LjY0OTk4TDE1LjE0MDIgNy4wOTk5OEMxNS4xOTI3IDcuNTg4NDkgMTUuNTkyNSA3Ljk2NjQ5IDE2LjA4MzIgNy45OTE3NEMxNi41NzM3IDguMDE2OTkgMTcuMDEwMiA3LjY4MTk5IDE3LjExMjUgNy4yMDE0OUMxNy4yMTUgNi43MjA5OCAxNi45NTMgNi4yMzcyMyAxNi40OTQ3IDYuMDYwMjNDMTYuMDM2NSA1Ljg4MzIyIDE1LjUxNzUgNi4wNjUyMyAxNS4yNzAyIDYuNDg5OThMMTIuODIwMiA1Ljk5OTk4QzEyLjc4MDIgNS45OTEyMyAxMi43Mzg3IDUuOTkwNDggMTIuNjk4NSA1Ljk5NzczQzEyLjY1OCA2LjAwNTIzIDEyLjYxOTUgNi4wMjA0OCAxMi41ODUgNi4wNDI3M0MxMi41NTA3IDYuMDY0OTggMTIuNTIxIDYuMDkzOTggMTIuNDk4IDYuMTI3NzNDMTIuNDc0NyA2LjE2MTczIDEyLjQ1ODUgNi4xOTk3MyAxMi40NTAyIDYuMjM5OThMMTEuNzEwMiA5LjcxMDAxQzExLjM2NDQgOS43MTUyNiAxMS4wMTk0IDkuNzQ1NTEgMTAuNjc4MiA5LjgwMDc2QzEwLjMzNjkgOS44NTYwMSA5Ljk5OTkzIDkuOTM1NzYgOS42NzAxOCAxMC4wMzk4QzkuMzQwNDMgMTAuMTQzOCA5LjAxODY4IDEwLjI3MTggOC43MDc0MyAxMC40MjIzQzguMzk2MjUgMTAuNTczIDguMDk2MzggMTAuNzQ2IDcuODEwMTcgMTAuOTRDNy42NTU5OSAxMC43OTUgNy40NzIxMiAxMC42ODUyIDcuMjcxMyAxMC42MTgzQzcuMDcwNDggMTAuNTUxNCA2Ljg1NzUyIDEwLjUyODkgNi42NDcxNiAxMC41NTI1QzYuNDM2ODMgMTAuNTc2IDYuMjM0MTMgMTAuNjQ0OSA2LjA1MzExIDEwLjc1NDZDNS44NzIxIDEwLjg2NDMgNS43MTcxMSAxMS4wMTIgNS41OTg5IDExLjE4NzVDNS40ODA1OSAxMS4zNjMxIDUuNDAxODcgMTEuNTYyMyA1LjM2ODIgMTEuNzcxM0M1LjMzNDUyIDExLjk4MDMgNS4zNDY3MSAxMi4xOTQyIDUuNDAzOSAxMi4zOThDNS40NjExOSAxMi42MDE4IDUuNTYyMDcgMTIuNzkwNyA1LjY5OTU1IDEyLjk1MTZDNS44MzcwMyAxMy4xMTI1IDYuMDA3ODQgMTMuMjQxNiA2LjIwMDE2IDEzLjMzQzYuMTk3NDEgMTMuMzY2NSA2LjE5NTE2IDEzLjQwMzMgNi4xOTM5MSAxMy40NEM2LjE5MDkgMTMuNTEzMyA2LjE5MDkgMTMuNTg2NyA2LjE5MzkxIDEzLjY2QzYuMTk1MTYgMTMuNjk2OCA2LjE5NzQxIDEzLjczMzUgNi4yMDAxNiAxMy43N0M2LjIwMDE2IDE2LjAxMDEgOC44MTAxOCAxNy44MzAxIDEyLjAzMDIgMTcuODMwMUMxNS4yNTAyIDE3LjgzMDEgMTcuODYwMiAxNi4wMTAxIDE3Ljg2MDIgMTMuNzdDMTcuODYzIDEzLjczMzUgMTcuODY1MiAxMy42OTY4IDE3Ljg2NjUgMTMuNjZDMTcuODY5NSAxMy41ODY3IDE3Ljg2OTUgMTMuNTEzMyAxNy44NjY1IDEzLjQ0QzE3Ljg2NTIgMTMuNDAzMyAxNy44NjMgMTMuMzY2NSAxNy44NjAyIDEzLjMzQzE3Ljk4MyAxMy4yNjkgMTguMDk2NSAxMy4xOTEgMTguMTk3NSAxMy4wOTgzQzE4LjI5ODUgMTMuMDA1NSAxOC4zODYgMTIuODk5IDE4LjQ1NzMgMTIuNzgyQzE4LjUyODggMTIuNjY1IDE4LjU4MzMgMTIuNTM4MyAxOC42MTkzIDEyLjQwNlpNOC45NjMxOCAxMy43MDdDOC44NzAxOCAxMy42MTQzIDguNzk2NjggMTMuNTA0IDguNzQ2MTggMTMuMzgyOEM4LjY5NTkyIDEzLjI2MTMgOC42NzAxNyAxMy4xMzEzIDguNjcwMTcgMTNDOC42NzAxNyAxMi41OTU1IDguOTEzOTMgMTIuMjMxIDkuMjg3NDMgMTIuMDc2QzkuNjYxMTggMTEuOTIxMyAxMC4wOTEyIDEyLjAwNyAxMC4zNzcyIDEyLjI5M0MxMC42NjMyIDEyLjU3OSAxMC43NDg5IDEzLjAwOSAxMC41OTQyIDEzLjM4MjhDMTAuNDM5MiAxMy43NTYzIDEwLjA3NDcgMTQgOS42NzAxOCAxNEM5LjUzODg1IDE0LjAwMDEgOS40MDg3OSAxMy45NzQyIDkuMjg3NDMgMTMuOTI0QzkuMTY2MTggMTMuODczNSA5LjA1NTkzIDEzLjggOC45NjMxOCAxMy43MDdaTTE0LjU1NTIgMTUuNTkzNkMxNC41NTQyIDE1LjY2NTEgMTQuNTI1IDE1LjczMzMgMTQuNDczNyAxNS43ODMzTDE0LjQ4MDIgMTUuNzUwMUMxNC4zMDQ1IDE1Ljg4MjYgMTQuMTE3NyAxNS45OTk2IDEzLjkyMiAxNi4xMDAxQzEzLjUyOTYgMTYuMzAxMSAxMy4xMDU2IDE2LjQzMzMgMTIuNjY4NSAxNi40OTA4QzEyLjQ1MDIgMTYuNTE5MyAxMi4yMyAxNi41MjkxIDEyLjAxMDIgMTYuNTIwMUMxMS43OTA0IDE2LjUyOTEgMTEuNTcwMiAxNi41MTkzIDExLjM1MTkgMTYuNDkwOEMxMS4xMzM3IDE2LjQ2MjEgMTAuOTE4NCAxNi40MTQ4IDEwLjcwODQgMTYuMzQ5M0MxMC40OTg0IDE2LjI4MzggMTAuMjk0MiAxNi4yMDA2IDEwLjA5ODQgMTYuMTAwMUM5LjkwMjY4IDE1Ljk5OTYgOS43MTU5MyAxNS44ODI2IDkuNTQwMTggMTUuNzUwMUM5LjQ5NzY4IDE1LjY5ODMgOS40NzU5MyAxNS42MzI2IDkuNDc5MTggMTUuNTY1NkM5LjQ4MjQzIDE1LjQ5ODYgOS41MTA2OCAxNS40MzUzIDkuNTU3OTMgMTUuMzg3OEM5LjYwNTQzIDE1LjM0MDYgOS42Njg2OCAxNS4zMTIzIDkuNzM1NjggMTUuMzA5MUM5LjgwMjY4IDE1LjMwNTggOS44Njg0MyAxNS4zMjc2IDkuOTIwMTggMTUuMzcwMUMxMC4wNjkyIDE1LjQ3OTMgMTAuMjI3MiAxNS41NzU4IDEwLjM5MjQgMTUuNjU4M0MxMC41NTc3IDE1Ljc0MDggMTAuNzI5NCAxNS44MDkzIDEwLjkwNjQgMTUuODYyOEMxMS4wODMyIDE1LjkxNjYgMTEuMjY0MiAxNS45NTUgMTEuNDQ3NCAxNS45Nzc4QzExLjYzMDcgMTYuMDAwOCAxMS44MTU3IDE2LjAwODMgMTIuMDAwMiAxNi4wMDAxQzEyLjE4NSAxNi4wMTAxIDEyLjM3MDIgMTYuMDA0NiAxMi41NTQyIDE1Ljk4MzNDMTIuNzM4IDE1Ljk2MjEgMTIuOTE5NyAxNS45MjUzIDEzLjA5NzIgMTUuODczNkMxMy4yNzQ5IDE1LjgyMTYgMTMuNDQ3OCAxNS43NTQ4IDEzLjYxNDIgMTUuNjczOEMxMy43ODA2IDE1LjU5MjggMTMuOTM5OCAxNS40OTc5IDE0LjA5MDIgMTUuMzkwMUMxNC4xNDggMTUuMzQ2OCAxNC4yMTcgMTUuMzE5MSAxNC4yODg3IDE1LjMyMDFDMTQuMzYwMiAxNS4zMjExIDE0LjQyODUgMTUuMzUwMyAxNC40Nzg1IDE1LjQwMTZDMTQuNTI4NSAxNS40NTI4IDE0LjU1NjIgMTUuNTIxOCAxNC41NTUyIDE1LjU5MzZaTTE0LjY4NTUgMTQuMDAzM0MxNC41NjAyIDE0LjA1NTMgMTQuNDI1NyAxNC4wODE1IDE0LjI5MDIgMTQuMDhMMTQuMzAwMiAxNC4wNEMxMy44OTU3IDE0LjA0IDEzLjUzMTIgMTMuNzk2MyAxMy4zNzYyIDEzLjQyMjhDMTMuMjIxNSAxMy4wNDkgMTMuMzA3MiAxMi42MTkgMTMuNTkzMiAxMi4zMzNDMTMuODc5MiAxMi4wNDcgMTQuMzA5MiAxMS45NjEzIDE0LjY4MyAxMi4xMTZDMTUuMDU2NSAxMi4yNzEgMTUuMzAwMiAxMi42MzU1IDE1LjMwMDIgMTMuMDRDMTUuMzA1NyAxMy4xNzU1IDE1LjI4MzUgMTMuMzEwNyAxNS4yMzUgMTMuNDM3M0MxNS4xODY1IDEzLjU2NCAxNS4xMTMgMTMuNjc5NSAxNS4wMTg1IDEzLjc3NjhDMTQuOTI0IDEzLjg3NCAxNC44MTA3IDEzLjk1MSAxNC42ODU1IDE0LjAwMzNaIiBmaWxsPSIjMDAwMDAwIiAvPgo8L3N2Zz4K"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDNi40Nzc4OCAyIDIgNi42MDIyOCAyIDEyLjI3OTZDMiAxNi44MjE1IDQuODY1MzEgMjAuNjc0OCA4LjgzODY2IDIyLjAzNEM5LjMzODQxIDIyLjEyOTIgOS41MjE5MyAyMS44MTEgOS41MjE5MyAyMS41Mzk1QzkuNTIxOTMgMjEuMjk0NCA5LjUxMjYgMjAuNDg0NiA5LjUwODM2IDE5LjYyNTZDNi43MjYyNiAyMC4yNDc1IDYuMTM5MjMgMTguNDEyOCA2LjEzOTIzIDE4LjQxMjhDNS42ODQzNCAxNy4yMjQ2IDUuMDI4OTEgMTYuOTA4NyA1LjAyODkxIDE2LjkwODdDNC4xMjE2NSAxNi4yNzA3IDUuMDk3MyAxNi4yODM3IDUuMDk3MyAxNi4yODM3QzYuMTAxNSAxNi4zNTYzIDYuNjMwMjcgMTcuMzQzMSA2LjYzMDI3IDE3LjM0MzFDNy41MjIxNiAxOC45MTQ2IDguOTY5NjQgMTguNDYwMyA5LjU0MDI4IDE4LjE5NzdDOS42MyAxNy41MzMyIDkuODg5MjEgMTcuMDc5OCAxMC4xNzUyIDE2LjgyMzFDNy45NTQwNiAxNi41NjMxIDUuNjE5MDkgMTUuNjgxNiA1LjYxOTA5IDExLjc0MjhDNS42MTkwOSAxMC42MjA1IDYuMDA5NzQgOS43MDM0NyA2LjY0OTQ4IDguOTgzNkM2LjU0NTY0IDguNzI0NjQgNi4yMDMzOCA3LjY3OTE0IDYuNzQ2MzQgNi4yNjMxOUM2Ljc0NjM0IDYuMjYzMTkgNy41ODYwOCA1Ljk4Njg5IDkuNDk3MDcgNy4zMTY5MUMxMC4yOTQ3IDcuMDg5MDcgMTEuMTUwMiA2Ljk3NDkxIDEyIDYuOTcxMDRDMTIuODQ5OSA2Ljk3NDkxIDEzLjcwNiA3LjA4OTA3IDE0LjUwNTIgNy4zMTY5MUMxNi40MTM5IDUuOTg2ODkgMTcuMjUyNSA2LjI2MzE5IDE3LjI1MjUgNi4yNjMxOUMxNy43OTY4IDcuNjc5MTQgMTcuNDU0NCA4LjcyNDY0IDE3LjM1MDUgOC45ODM2QzE3Ljk5MTcgOS43MDM0NyAxOC4zNzk3IDEwLjYyMDUgMTguMzc5NyAxMS43NDI4QzE4LjM3OTcgMTUuNjkxIDE2LjA0MDMgMTYuNTYwNCAxMy44MTM1IDE2LjgxNDhDMTQuMTcyMiAxNy4xMzM5IDE0LjQ5MTggMTcuNzU5NSAxNC40OTE4IDE4LjcxODVDMTQuNDkxOCAyMC4wOTM5IDE0LjQ4MDIgMjEuMjAwOSAxNC40ODAyIDIxLjUzOTVDMTQuNDgwMiAyMS44MTMxIDE0LjY2MDIgMjIuMTMzNiAxNS4xNjcxIDIyLjAzMjdDMTkuMTM4MyAyMC42NzE5IDIyIDE2LjgyIDIyIDEyLjI3OTZDMjIgNi42MDIyOCAxNy41MjI3IDIgMTIgMloiIGZpbGw9IiMwMDAwMDAiIC8+CjxwYXRoIGQ9Ik01Ljc0NDQgMTYuNjQzNkM1LjcyMjQ0IDE2LjY5NDYgNS42NDQxNyAxNi43MDk5IDUuNTczMDMgMTYuNjc0OUM1LjUwMDQ5IDE2LjY0MTQgNS40NTk3IDE2LjU3MTcgNS40ODMyMyAxNi41MjA0QzUuNTA0OCAxNi40Njc5IDUuNTgzMDcgMTYuNDUzMiA1LjY1NTQ2IDE2LjQ4ODVDNS43MjgxNyAxNi41MjIgNS43Njk1OCAxNi41OTIzIDUuNzQ0NCAxNi42NDM2Wk02LjIzNjMxIDE3LjA5NDdDNi4xODg2MiAxNy4xNDAyIDYuMDk1MzcgMTcuMTE5MSA2LjAzMjA4IDE3LjA0NzJDNS45NjY2NyAxNi45NzU2IDUuOTU0NDQgMTYuODc5OCA2LjAwMjgzIDE2LjgzMzZDNi4wNTIgMTYuNzg4MiA2LjE0MjQzIDE2LjgwOTQgNi4yMDggMTYuODgxMUM2LjI3MzQxIDE2Ljk1MzYgNi4yODYxMSAxNy4wNDg4IDYuMjM2MjMgMTcuMDk0OEw2LjIzNjMxIDE3LjA5NDdaTTYuNTczNzkgMTcuNjcyQzYuNTEyNDYgMTcuNzE1NyA2LjQxMjIzIDE3LjY3NDcgNi4zNTAzNSAxNy41ODMzQzYuMjg5MDkgMTcuNDkxOSA2LjI4OTA5IDE3LjM4MjMgNi4zNTE2OCAxNy4zMzgzQzYuNDEzNzkgMTcuMjk0NCA2LjUxMjQ2IDE3LjMzMzkgNi41NzUyIDE3LjQyNDZDNi42MzYzOCAxNy41MTc2IDYuNjM2MzggMTcuNjI3MiA2LjU3MzcxIDE3LjY3Mkw2LjU3Mzc5IDE3LjY3MlpNNy4xNDQ0NCAxOC4zNDA2QzcuMDg5NjIgMTguNDAyNiA2Ljk3MjkyIDE4LjM4NiA2Ljg4NzQzIDE4LjMwMTJDNi44MDAwNiAxOC4yMTgzIDYuNzc1NjcgMTguMTAwNyA2LjgzMDY1IDE4LjAzODVDNi44ODYwOSAxNy45NzYzIDcuMDAzNSAxNy45OTM4IDcuMDg5NjIgMTguMDc3OUM3LjE3NjQ0IDE4LjE2MDYgNy4yMDI5NSAxOC4yNzkxIDcuMTQ0NTIgMTguMzQwNkg3LjE0NDQ0Wk03Ljg4MTk5IDE4LjU2NjNDNy44NTc5MSAxOC42NDY4IDcuNzQ1NDQgMTguNjgzNCA3LjYzMjE5IDE4LjY0OTJDNy41MTkxIDE4LjYxMzkgNy40NDUwNiAxOC41MTk2IDcuNDY3ODggMTguNDM4M0M3LjQ5MTQxIDE4LjM1NzIgNy42MDQzNSAxOC4zMTkxIDcuNzE4NDYgMTguMzU1N0M3LjgzMTQgMTguMzkwOCA3LjkwNTU5IDE4LjQ4NDQgNy44ODIwNyAxOC41NjYzSDcuODgxOTlaTTguNzIxNDkgMTguNjYyQzguNzI0MzIgMTguNzQ2OCA4LjYyODI0IDE4LjgxNzEgOC41MDkzNCAxOC44MTg2QzguMzg5NzQgMTguODIxMyA4LjI5MzAzIDE4Ljc1MjcgOC4yOTE3OCAxOC42NjkzQzguMjkxNzggMTguNTgzNyA4LjM4NTY2IDE4LjUxNDEgOC41MDUxOSAxOC41MTJDOC42MjQwOCAxOC41MDk2IDguNzIxNDkgMTguNTc3NyA4LjcyMTQ5IDE4LjY2MlpNOS41NDYxIDE4LjYyOTVDOS41NjAzNyAxOC43MTIyIDkuNDc3NzEgMTguNzk3MiA5LjM1OTY3IDE4LjgxOThDOS4yNDM2IDE4Ljg0MTUgOS4xMzYxNSAxOC43OTA1IDkuMTIxMzIgMTguNzA4NUM5LjEwNjg5IDE4LjYyMzcgOS4xOTExMyAxOC41Mzg4IDkuMzA2OTcgMTguNTE2OEM5LjQyNTI0IDE4LjQ5NTcgOS41MzEwNCAxOC41NDU0IDkuNTQ2MSAxOC42Mjk1WiIgZmlsbD0iIzAwMDAwMCIgLz4KPC9zdmc+Cg=="
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNTAgNTAiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPjxwYXRoIGQ9Ik0gNDQuODk4NDM4IDE0LjUgQyA0NC41IDEyLjMwMDc4MSA0Mi42MDE1NjMgMTAuNjk5MjE5IDQwLjM5ODQzOCAxMC4xOTkyMTkgQyAzNy4xMDE1NjMgOS41IDMxIDkgMjQuMzk4NDM4IDkgQyAxNy44MDA3ODEgOSAxMS42MDE1NjMgOS41IDguMzAwNzgxIDEwLjE5OTIxOSBDIDYuMTAxNTYzIDEwLjY5OTIxOSA0LjE5OTIxOSAxMi4xOTkyMTkgMy44MDA3ODEgMTQuNSBDIDMuMzk4NDM4IDE3IDMgMjAuNSAzIDI1IEMgMyAyOS41IDMuMzk4NDM4IDMzIDMuODk4NDM4IDM1LjUgQyA0LjMwMDc4MSAzNy42OTkyMTkgNi4xOTkyMTkgMzkuMzAwNzgxIDguMzk4NDM4IDM5LjgwMDc4MSBDIDExLjg5ODQzOCA0MC41IDE3Ljg5ODQzOCA0MSAyNC41IDQxIEMgMzEuMTAxNTYzIDQxIDM3LjEwMTU2MyA0MC41IDQwLjYwMTU2MyAzOS44MDA3ODEgQyA0Mi44MDA3ODEgMzkuMzAwNzgxIDQ0LjY5OTIxOSAzNy44MDA3ODEgNDUuMTAxNTYzIDM1LjUgQyA0NS41IDMzIDQ2IDI5LjM5ODQzOCA0Ni4xMDE1NjMgMjUgQyA0NS44OTg0MzggMjAuNSA0NS4zOTg0MzggMTcgNDQuODk4NDM4IDE0LjUgWiBNIDE5IDMyIEwgMTkgMTggTCAzMS4xOTkyMTkgMjUgWiIvPjwvc3ZnPg=="
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNTAgNTAiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPjxwYXRoIGQ9Ik00Mi4yOTgsMTEuNjVjLTAuNjc2LTEuMDIxLTEuNjMzLTEuODAyLTIuNzY4LTIuMjU2Yy0yLjQ2NC0wLjk4OC00LjU4My0xLjY0OC02LjQ3OS0yLjAyCUMzMS43MjEsNy4xMTQsMzAuNDA0LDcuNzY4LDI5Ljc3MSw5bC0wLjE1OCwwLjMwOGMtMS40MDQtMC4xNTUtMi44OTUtMC4yMDctNC41OTMtMC4xNjRjLTEuNzQxLTAuMDQyLTMuMjM3LDAuMDA5LTQuNjQzLDAuMTY0CUwyMC4yMiw5Yy0wLjYzMy0xLjIzMi0xLjk1Mi0xLjg4NS0zLjI3OS0xLjYyNWMtMS44OTYsMC4zNzEtNC4wMTYsMS4wMzEtNi40NzksMi4wMmMtMS4xMzQsMC40NTQtMi4wOTEsMS4yMzQtMi43NjgsMi4yNTYJYy00LjcyMSw3LjEzMS02LjU3MSwxNC44MjMtNS42NTUsMjMuNTE3YzAuMDMyLDAuMzA1LDAuMjAyLDAuNTc4LDAuNDYxLDAuNzQxYzMuNjMyLDIuMjksNi43NzUsMy44NTgsOS44OTEsNC45MzYJYzEuMzAzLDAuNDU1LDIuNzQ4LTAuMDU0LDMuNTE3LTEuMjI5bDEuMzcxLTIuMTAxYy0xLjA5Mi0wLjQxMi0yLjE1OC0wLjktMy4xOC0xLjQ4M2MtMC40NzktMC4yNzMtMC42NDYtMC44ODQtMC4zNzMtMS4zNjMJYzAuMjczLTAuNDgxLDAuODg0LTAuNjUsMS4zNjQtMC4zNzNjMy4wNDEsMS43MzQsNi40NzksMi42NTEsOS45NDIsMi42NTFzNi45MDEtMC45MTcsOS45NDItMi42NTEJYzAuNDc5LTAuMjc3LDEuMDktMC4xMDgsMS4zNjQsMC4zNzNjMC4yNzMsMC40NzksMC4xMDYsMS4wOS0wLjM3MywxLjM2M2MtMS4wNTYsMC42MDMtMi4xNiwxLjEwNS0zLjI5MSwxLjUyNGwxLjQxMSwyLjEwMgljMC41ODEsMC44NjUsMS41NCwxLjM1NywyLjUyOCwxLjM1N2MwLjMyMiwwLDAuNjQ3LTAuMDUzLDAuOTYzLTAuMTYxYzMuMTI1LTEuMDc5LDYuMjc0LTIuNjQ5LDkuOTE0LTQuOTQ0CWMwLjI1OS0wLjE2MywwLjQyOS0wLjQzNywwLjQ2MS0wLjc0MUM0OC44NjksMjYuNDc0LDQ3LjAxOSwxOC43ODEsNDIuMjk4LDExLjY1eiBNMTguNjA4LDI4Ljk4M2MtMS45MjYsMC0zLjUxMS0yLjAyOS0zLjUxMS00LjQ5NQljMC0yLjQ2NiwxLjU4NS00LjQ5NSwzLjUxMS00LjQ5NXMzLjUxMSwyLjAyOSwzLjUxMSw0LjQ5NUMyMi4xMTksMjYuOTU0LDIwLjUzNCwyOC45ODMsMTguNjA4LDI4Ljk4M3ogTTMxLjYwMSwyOC45NTcJYy0xLjkwOCwwLTMuNDc4LTIuMDQxLTMuNDc4LTQuNTIyczEuNTctNC41MjIsMy40NzgtNC41MjJjMS45MDgsMCwzLjQ3OCwyLjA0MSwzLjQ3OCw0LjUyMlMzMy41MDksMjguOTU3LDMxLjYwMSwyOC45NTd6Ii8+PC9zdmc+"
+                      alt=""
+                    />
                   </a>
                 </li>
               </ul>

@@ -30,6 +30,10 @@ const Header = () => {
     } else {
       setmobileMenu(false);
     }
+    setfullFloat(false);
+    setmobileMenu2(false);
+    setmobileMenu3(false);
+    setmobileMenu4(false);
   };
   let toggleTrue = () => {
     setmobileMenu(true);
@@ -44,6 +48,10 @@ const Header = () => {
     } else {
       setmobileMenu2(false);
     }
+    setfullFloat(false);
+    setmobileMenu(false);
+    setmobileMenu3(false);
+    setmobileMenu4(false);
   };
   let toggleTrue2 = () => {
     setmobileMenu4(false);
@@ -58,6 +66,10 @@ const Header = () => {
     } else {
       setmobileMenu3(false);
     }
+    setfullFloat(false);
+    setmobileMenu(false);
+    setmobileMenu2(false);
+    setmobileMenu4(false);
   };
   let toggleTrue3 = () => {
     setmobileMenu(false);
@@ -72,6 +84,10 @@ const Header = () => {
     } else {
       setmobileMenu4(false);
     }
+    setfullFloat(false);
+    setmobileMenu(false);
+    setmobileMenu2(false);
+    setmobileMenu3(false);
   };
   let toggleTrue4 = () => {
     setmobileMenu(false);
@@ -244,11 +260,36 @@ const Header = () => {
                         ? "jss1229 static active-bar"
                         : "jss1229 static closeAn "
                     }
-                    onMouseEnter={toggleTrue}
-                    onClick={toggleFalse}
                   >
                     <button
-                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117"
+                      onMouseEnter={toggleTrue}
+                      onClick={toggleFalse}
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117  desk-off"
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span className="MuiButton-label-107">
+                        Products
+                        <svg
+                          className="jss1233"
+                          width={10}
+                          height={6}
+                          viewBox="0 0 10 6"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 1l4 4 4-4"
+                            stroke="currentColor"
+                            strokeWidth="1.25"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      // onClick={toggleTrue}
+                      onClick={toggleFalse}
+                      className="MuiButtonBase-root-133 mbl-on MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117"
                       tabIndex={0}
                       type="button"
                     >
@@ -906,11 +947,35 @@ const Header = () => {
                         ? "jss1229 static active-bar"
                         : "jss1229 static closeAn "
                     }
-                    onMouseEnter={toggleFull}
-                    onClick={toggleMobileCase}
                   >
                     <button
-                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117"
+                      onMouseEnter={toggleFull}
+                      onClick={toggleMobileCase}
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117 desk-off"
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span className="MuiButton-label-107">
+                        Case Studies
+                        <svg
+                          className="jss1233"
+                          width={10}
+                          height={6}
+                          viewBox="0 0 10 6"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 1l4 4 4-4"
+                            stroke="currentColor"
+                            strokeWidth="1.25"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      onClick={toggleMobileCase}
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117 mbl-on"
                       tabIndex={0}
                       type="button"
                     >
@@ -1134,13 +1199,37 @@ const Header = () => {
                         ? "jss1229 static active-bar"
                         : "jss1229 static closeAn "
                     }
-                    onMouseEnter={toggleTrue2}
-                    onClick={toggleFalse2}
                   >
                     <button
-                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117"
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117 desk-off"
                       tabIndex={0}
                       type="button"
+                      onMouseEnter={toggleTrue2}
+                      onClick={toggleFalse2}
+                    >
+                      <span className="MuiButton-label-107">
+                        Developers
+                        <svg
+                          className="jss1233"
+                          width={10}
+                          height={6}
+                          viewBox="0 0 10 6"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 1l4 4 4-4"
+                            stroke="currentColor"
+                            strokeWidth="1.25"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117 mbl-on"
+                      tabIndex={0}
+                      type="button"
+                      onClick={toggleFalse2}
                     >
                       <span className="MuiButton-label-107">
                         Developers
@@ -1374,12 +1463,36 @@ const Header = () => {
                         ? "jss1229 static active-bar"
                         : "jss1229 static closeAn "
                     }
-                    onMouseEnter={toggleTrue3}
-                    onClick={toggleFalse3}
                   >
                     <button
-                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117"
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117 desk-off"
                       tabIndex={0}
+                      onMouseEnter={toggleTrue3}
+                      onClick={toggleFalse3}
+                      type="button"
+                    >
+                      <span className="MuiButton-label-107">
+                        Ecosystem
+                        <svg
+                          className="jss1233"
+                          width={10}
+                          height={6}
+                          viewBox="0 0 10 6"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 1l4 4 4-4"
+                            stroke="currentColor"
+                            strokeWidth="1.25"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117 mbl-on"
+                      tabIndex={0}
+                      onClick={toggleFalse3}
                       type="button"
                     >
                       <span className="MuiButton-label-107">
@@ -1558,11 +1671,35 @@ const Header = () => {
                         ? "jss1229 static active-bar"
                         : "jss1229 static closeAn "
                     }
-                    onMouseEnter={toggleTrue4}
-                    onClick={toggleFalse4}
                   >
                     <button
-                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117"
+                      onMouseEnter={toggleTrue4}
+                      onClick={toggleFalse4}
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117 desk-off"
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span className="MuiButton-label-107">
+                        Company
+                        <svg
+                          className="jss1233"
+                          width={10}
+                          height={6}
+                          viewBox="0 0 10 6"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 1l4 4 4-4"
+                            stroke="currentColor"
+                            strokeWidth="1.25"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      onClick={toggleFalse4}
+                      className="MuiButtonBase-root-133 MuiButton-root-106 MuiButton-text-108 jss1230 MuiButton-disableElevation-117 mbl-on"
                       tabIndex={0}
                       type="button"
                     >

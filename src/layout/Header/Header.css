@@ -1714,6 +1714,17 @@
   transition: all 0.3s ease;
 }
 
+.mbl-on {
+  display: none !important;
+}
+@media (max-width: 1024px) {
+  .desk-off {
+    display: none !important;
+  }
+  .mbl-on {
+    display: block !important;
+  }
+}
 @media (min-width: 1024px) {
   .link-txt h3 {
     margin-bottom: 6px;
