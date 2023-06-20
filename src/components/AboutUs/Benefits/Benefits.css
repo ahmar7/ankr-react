@@ -1,0 +1,132 @@
+.ajss424 {
+  height: 100%;
+  border-radius: 24px;
+  background-color: #fff;
+}
+.ajss425 {
+  cursor: pointer;
+}
+.ajss425:hover .ajss428,
+.ajss425:focus .ajss428 {
+  transform: translateY(0);
+}
+.ajss426 {
+  padding: 20px;
+}
+@media (max-width: 959.95px) {
+  .ajss426 {
+    padding: 16px;
+  }
+}
+.ajss427 {
+  height: 100%;
+  display: grid;
+  grid-gap: 24px;
+  position: relative;
+  grid-template-rows: 1fr 130px;
+  grid-template-areas: "title" "icon";
+  grid-template-columns: 100%;
+}
+@media (max-width: 959.95px) {
+  .ajss427 {
+    grid-gap: calc(100% - (148px + 70px));
+    grid-template-rows: unset;
+    grid-template-areas: "title icon";
+    grid-template-columns: 148px 70px;
+  }
+}
+
+.ajss428.ajss428 {
+  display: flex;
+  font-size: 24px;
+  grid-area: title;
+  margin-top: auto;
+  align-items: flex-start;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 28px;
+  flex-direction: column;
+}
+@media (max-width: 959.95px) {
+  .ajss428.ajss428 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+}
+@media (max-width: 959.95px) {
+  .ajss420.ajss420 {
+    padding: 0px 0px 64px;
+  }
+}
+.ajss421.ajss421 {
+  text-align: center;
+}
+.ajss422.ajss422 {
+  margin: 0;
+  display: grid;
+  padding: 0;
+  grid-gap: 20px;
+  list-style: none;
+  margin-top: 80px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+@media (max-width: 959.95px) {
+  .ajss422.ajss422 {
+    margin-top: 32px;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 767.95px) {
+  .ajss422.ajss422 {
+    display: block;
+    grid-gap: 0;
+  }
+}
+.mbll {
+  display: none;
+}
+@media (max-width: 959.95px) {
+  .ajss423.ajss423 {
+    margin-bottom: 12px;
+  }
+  .mbll {
+    display: block;
+  }
+  .ajss423.ajss423:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ajss427::after {
+  content: "";
+  position: relative;
+  grid-area: icon;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ajss429::after {
+  background-image: url(https://www.ankr.com/_next/static/images/remote-work-42fc350cab393ceab29aa6ac12cc3b1d.png);
+  background-size: contain;
+}
+
+.ajss430::after {
+  background-image: url(https://www.ankr.com/_next/static/images/flexible-vacation-716d7a672a78cc47cd44070dd34b5edb.png);
+  background-size: contain;
+}
+
+.ajss431::after {
+  background-image: url(https://www.ankr.com/_next/static/images/cultural-diversity-8587936171fa3dfb0670c3f4a1f3402a.png);
+  background-size: contain;
+}
+
+.ajss432::after {
+  background-image: url(https://www.ankr.com/_next/static/images/paid-education-26fb37550733bdd486d9b9a73d990e51.png);
+  background-size: contain;
+}
+
+.ajss433::after {
+  background-image: url(https://www.ankr.com/_next/static/images/computer-equipment-2dfa47d4bc2e8b65482d2a221e8b49fa.png);
+  background-size: contain;
+}

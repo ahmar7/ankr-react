@@ -1,0 +1,32 @@
+.active-faq
+
+{
+  overflow: hidden;
+  animation: heightup 0.3s ease;
+}
+
+.no-height{ 
+  overflow: hidden;
+
+  animation: heightdw 0.3s ease forwards;
+}
+@keyframes heightup {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 50px;
+  }
+  100% {
+    height: auto;
+  }
+}
+@keyframes heightdw {
+  0% {
+    height: 30px;
+  }
+   
+  100% {
+    height: 0;
+  }
+}

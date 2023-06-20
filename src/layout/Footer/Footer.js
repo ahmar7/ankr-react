@@ -519,15 +519,47 @@ const Footer = () => {
                     </svg>
                   </span>
                 </a>
-              </div>
-              <p className="MuiTypography-root-642 jss743 MuiTypography-subtitle2-654">
-                <span>
-                  © 2023 Ankr All rights reserved |{" "}
-                  <a href="mailto:info@ankr.com" rel="noopener noreferrer">
-                    info@ankr.com
+                <div className="cus-li">
+                  <p className="first-cl l-gp">
+                    © 2023
+                    <a href="">
+                      Web3 Foundation
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="1 -3 17 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="block text-inherit !m-0 w-full h-full"
+                      >
+                        <g clip-path="url(#clip0_394_7705)">
+                          <path
+                            d="M9.2999 1.97635L14.0139 1.97635M14.0139 1.97635L14.0139 6.6904M14.0139 1.97635L8.35709 7.63321"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_394_7705">
+                            <rect width="16" height="16" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </p>
+                  <a href="" className=" l-gp">
+                    Legal Disclosures
                   </a>
-                </span>
-              </p>
+                  <a href="" className=" l-gp">
+                    Disclaimer
+                  </a>
+                  <a href="" className=" l-gp">
+                    Privacy
+                  </a>
+                </div>
+              </div>
               <ul className="jss744 social-ico">
                 <li>
                   <a href="">

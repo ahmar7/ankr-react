@@ -12,7 +12,7 @@ const Header = () => {
   const [mobileMenu2, setmobileMenu2] = useState(false);
   const [mobileMenu3, setmobileMenu3] = useState(false);
   const [mobileMenu4, setmobileMenu4] = useState(false);
-  window.addEventListener("scroll", function() {
+  window.addEventListener("scroll", function () {
     let header = this.document.querySelector(".MuiAppBar-positionFixed-18");
 
     header.classList.toggle("active-header", window.scrollY > 0);
@@ -645,7 +645,7 @@ const Header = () => {
                         </Link>
                       </div>
                       <div className="flex-row">
-                        <a href="#" className="individual-link">
+                        <Link to="/about-us" className="individual-link">
                           <div className="icon">
                             <svg
                               width={24}
@@ -717,8 +717,8 @@ const Header = () => {
                             <h3>NFT</h3>
                             <p>Tailor non-fungible tokens wrapped in Velas</p>
                           </div>
-                        </a>
-                        <a href="#" className="individual-link">
+                        </Link>
+                        <Link to="/about-network" className="individual-link">
                           <div className="icon">
                             <svg
                               width={24}
@@ -794,10 +794,10 @@ const Header = () => {
                             <h3>P2P Games</h3>
                             <p>Build Play-to-Earn (P2E) games</p>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                       <div className="flex-row no-margin">
-                        <a href="#" className="individual-link">
+                        <Link to="/blog" className="individual-link">
                           <div className="icon">
                             <svg
                               width={24}
@@ -869,8 +869,11 @@ const Header = () => {
                             <h3>DEX</h3>
                             <p>Design decentralized exchanges</p>
                           </div>
-                        </a>
-                        <a href="#" className="individual-link no-margin">
+                        </Link>
+                        <Link
+                          to="/build-dapps"
+                          className="individual-link no-margin"
+                        >
                           <div className="icon">
                             <svg
                               width={24}
@@ -937,7 +940,7 @@ const Header = () => {
                               Grow decentralized web based on public blockchains
                             </p>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </li>

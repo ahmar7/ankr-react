@@ -1249,10 +1249,16 @@
 .active-header {
   position: fixed;
   top: 0;
+  background-color: white;
   animation: headerdown 0.3s ease forwards;
 }
 .no-shadow .active-header {
   box-shadow: none !important;
+  background-color: white;
+}
+.no-shadow header{
+  
+  background-color: white;
 }
 .MuiContainer-root-1268 {
   width: 100%;

@@ -1,0 +1,73 @@
+.thjss166 {
+  padding-top: 120px;
+}
+@media (max-width: 959.95px) {
+  .thjss166 {
+    padding-top: 40px;
+  }
+}
+.thjss167 {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 959.95px) {
+  .thjss167 {
+    flex-direction: column;
+  }
+}
+.thjss168 {
+  color: #1f2226;
+  font-size: 63px;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 74px;
+  letter-spacing: -0.02em;
+}
+@media (max-width: 959.95px) {
+  .thjss168 {
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 20px;
+  }
+}
+.thjss169 {
+  width: 400px;
+  height: 48px;
+  position: relative;
+}
+@media (max-width: 959.95px) {
+  .thjss169 {
+    width: 100%;
+  }
+}
+.thjss170 {
+  width: 100%;
+  border: 2px solid transparent;
+  height: 100%;
+  padding: 0px 16px;
+  font-size: 16px;
+  background: #fff;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 17px;
+}
+.thjss170:focus {
+  outline: none;
+  border-color: #356df3;
+}
+.thjss171 {
+  top: 50%;
+  right: 16px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+.thjss172 {
+  color: #82899a;
+}

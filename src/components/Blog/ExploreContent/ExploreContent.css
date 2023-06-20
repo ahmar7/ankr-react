@@ -1,0 +1,81 @@
+.thjss330 {
+  color: #ffffff;
+  background: linear-gradient(
+      302.06deg,
+      #2f62f1 0%,
+      #6e22ff 36.73%,
+      #ff7710 100%
+    ),
+    #ffffff;
+}
+.thjss330.thjss330 .thjss333 {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.thjss330.thjss330 .thjss334 {
+  color: #1f2226;
+  background-color: #f2f5fa;
+}
+.thjss330.thjss330 .thjss333:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.thjss331 {
+  color: inherit;
+  margin-bottom: 40px;
+}
+.thjss333.thjss333 {
+  height: 44px;
+  margin: 0px 8px 8px 0px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 700;
+  white-space: nowrap;
+  border-radius: 20px;
+}
+@media (max-width: 959.95px) {
+  .thjss333.thjss333 {
+    height: 33px;
+    font-size: 12px;
+    border-radius: 17px;
+  }
+}
+.thjss322 {
+  padding-top: 80px;
+}
+@media (max-width: 959.95px) {
+  .thjss322 {
+    padding-top: 48px;
+  }
+}
+.thjss323.thjss323 {
+  margin: 0 auto;
+  font-size: 52px;
+  max-width: 730px;
+  text-align: center;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+@media (max-width: 959.95px) {
+  .thjss323.thjss323 {
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 32px;
+  }
+}
+.thjss324 {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.thjss325 {
+  width: calc(100% / 3 - (32px / 3));
+}
+@media (max-width: 959.95px) {
+  .thjss325 {
+    width: 100%;
+  }
+}

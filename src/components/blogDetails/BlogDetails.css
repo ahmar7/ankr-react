@@ -1,0 +1,229 @@
+.bdjss164 {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+@media (max-width: 959.95px) {
+  .bdjss164 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.bdjss165 {
+  margin: 0 auto;
+  max-width: 820px;
+}
+.bdjss166 {
+  font-size: 35px;
+  font-family: TT Firs Neue;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 12px;
+}
+.bdjss167 {
+  background-color: #f2f5fa;
+}
+.bdjss168 {
+  margin-bottom: 32px;
+}
+.bdjss169 {
+  color: #585e6b;
+  height: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  background: #ffffff;
+  font-family: Inter;
+  font-weight: 400;
+  margin-right: 16px;
+  border-radius: 16px;
+}
+.bdjss169:hover {
+  color: #356df3;
+  background: #ffffff;
+}
+.bdjss170.bdjss170 img {
+  width: 100%;
+}
+.bdjss170.bdjss170 a {
+  color: #356df3;
+  text-decoration: none;
+}
+.bdjss170.bdjss170 h1 {
+  font-size: 42px;
+  font-family: Inter;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+}
+.bdjss170.bdjss170 h2 {
+  font-size: 35px;
+  font-family: Inter;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+}
+.bdjss170.bdjss170 h3,
+.bdjss170.bdjss170 h4,
+.bdjss170.bdjss170 h5,
+.bdjss170.bdjss170 h6 {
+  font-size: 28px;
+  font-family: Inter;
+  line-height: 35px;
+  letter-spacing: -0.01em;
+}
+.bdjss170.bdjss170 p {
+  font-size: 16px;
+  margin-top: 0;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+@media (max-width: 959.95px) {
+  .bdjss170.bdjss170 p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 959.95px) {
+  .bdjss170.bdjss170 h3,
+  .bdjss170.bdjss170 h4,
+  .bdjss170.bdjss170 h5,
+  .bdjss170.bdjss170 h6 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 1439.95px) {
+  .bdjss170.bdjss170 h2 {
+    font-size: 31px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 1439.95px) {
+  .bdjss170.bdjss170 h1 {
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+  }
+}
+@media (max-width: 959.95px) {
+  .bdjss170.bdjss170 h1 {
+    font-size: 31px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+  }
+}
+.bdjss171 {
+  display: flex;
+  justify-content: center;
+}
+.bdjss172 {
+  border-radius: 17px;
+}
+.bdjss268.bdjss268 {
+  gap: 12px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+@media (max-width: 959.95px) {
+  .bdjss268.bdjss268 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}
+.bdjss269 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+@media (max-width: 959.95px) {
+  .bdjss269 {
+    width: 32px;
+    height: 32px;
+  }
+}
+.bdjss270 {
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.bdjss271 {
+  margin-left: 12px;
+}
+.bdjss271::before {
+  top: 50%;
+  left: -15px;
+  width: 5px;
+  height: 5px;
+  content: "";
+  position: absolute;
+  transform: translateY(-50%);
+  background: #356df3;
+  border-radius: 4px;
+}
+.bdjss272 {
+  color: #82899a;
+  position: relative;
+}
+.bdMuiButton-disableElevation-287 {
+    box-shadow: none;
+}
+
+
+.bdMuiButton-contained-284 {
+    color: #fff;
+    box-shadow: none;
+    background-color: #356DF3;
+    transition-duration: 0.15s;
+    transition-property: color, background-color;
+    transition-timing-function: linear;
+}
+@media (max-width: 1279.95px)
+
+{.bdMuiButton-root-276 {
+    height: 48px;
+    padding: 14px 20px;
+    font-size: 15px;
+}}
+
+.bdMuiButton-root-276 {
+    color: #1f2226;
+    height: 54px;
+    padding: 15px 25px;
+    font-size: 18px;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Inter-Bold", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    border-radius: 12px;
+    text-transform: initial;
+    text-decoration: none;
+}
+
+    .bdMuiButton-label-277{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: white;
+        font-weight: bold;
+    }
+    @media (max-width: 767.95px)
+ 
+{.bdMuiContainer-root-227.bdMuiContainer-root-227 {
+    padding: 0 20px;
+    background-color: #356DF3;
+}}
+.bdMuiPaper-root-174 {
+    color: #1f2226;
+    transition: none;
+    background-color: #F2F5FA;
+}
