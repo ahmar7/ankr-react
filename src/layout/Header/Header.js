@@ -317,7 +317,10 @@ const Header = () => {
                     ></div>
                     <div className="float-dv">
                       <div className="flex-row">
-                        <Link to="/brand-assets" className="individual-link">
+                        <Link
+                          to="/features/decentralized-applications-dapps-on-trush"
+                          className="individual-link"
+                        >
                           <div className="icon">
                             <svg
                               width={24}
@@ -390,7 +393,10 @@ const Header = () => {
                             <p>Build decentralized applications on Velas</p>
                           </div>
                         </Link>
-                        <Link to="/trs-token" className="individual-link">
+                        <Link
+                          to="/features/trush-and-the-metaverse"
+                          className="individual-link"
+                        >
                           <div className="icon">
                             <svg
                               width={24}
@@ -466,7 +472,7 @@ const Header = () => {
                       </div>
                       <div className="flex-row">
                         <Link
-                          to="/become-ambassador"
+                          to="/features/trush-in-decentralized-finance-defi"
                           className="individual-link"
                         >
                           <div className="icon">
@@ -645,7 +651,10 @@ const Header = () => {
                         </Link>
                       </div>
                       <div className="flex-row">
-                        <Link to="/about-us" className="individual-link">
+                        <Link
+                          to="/features/trush-and-non-fungible-tokens-nfts"
+                          className="individual-link"
+                        >
                           <div className="icon">
                             <svg
                               width={24}
@@ -718,7 +727,10 @@ const Header = () => {
                             <p>Tailor non-fungible tokens wrapped in Velas</p>
                           </div>
                         </Link>
-                        <Link to="/about-network" className="individual-link">
+                        <Link
+                          to="/features/gaming-on-trush"
+                          className="individual-link"
+                        >
                           <div className="icon">
                             <svg
                               width={24}
@@ -797,7 +809,10 @@ const Header = () => {
                         </Link>
                       </div>
                       <div className="flex-row no-margin">
-                        <Link to="/blog" className="individual-link">
+                        <Link
+                          to="/features/decentralized-exchanges-dexs-on-trush"
+                          className="individual-link"
+                        >
                           <div className="icon">
                             <svg
                               width={24}
@@ -871,7 +886,7 @@ const Header = () => {
                           </div>
                         </Link>
                         <Link
-                          to="/build-dapps"
+                          to="/features/cross-chain-interoperability-with-trush"
                           className="individual-link no-margin"
                         >
                           <div className="icon">

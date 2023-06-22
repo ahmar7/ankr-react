@@ -1,0 +1,51 @@
+.dapps-what {
+  width: 100%;
+  margin-bottom: 170px;
+}
+.dapps-what .wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.dapps-what__content,
+.dapps-what__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dapps-what__content {
+  max-width: 630px;
+}
+.dapps-what__content .main__title {
+  margin-bottom: 16px;
+}
+.dapps-what__content .main__text {
+  margin-bottom: 34px;
+}
+.dapps-what__content.no-link .main__text {
+  margin-bottom: 0;
+}
+.dapps-what__items {
+  gap: 23px;
+  margin-right: 62px;
+  margin-top: 76px;
+}
+.dapps-what__item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 553px;
+}
+.dapps-what__item svg {
+  min-width: 34px;
+  margin-right: 12px;
+}
+.dapps-what__item .main__text {
+  margin-top: 4px;
+}
+.dapps-what__item .main__text span {
+  font-weight: 600;
+  color: var(--font-color-black);
+}

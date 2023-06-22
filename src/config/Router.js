@@ -9,9 +9,14 @@ import AboutUs from "../pages/AboutUs";
 import AboutNetwork from "../pages/AboutNetwork";
 import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
-import BuildDapps from "../pages/BuildDapps";
+import BuildDapps from "../pages/Features/BuildDapps";
 import Faq from "../pages/Faq";
 import BuildDefi from "../pages/Features/BuildDefi";
+import MakeNft from "../pages/Features/MakeNft";
+import CreateDex from "../pages/Features/CreateDex";
+import BuildMetaverse from "../pages/Features/BuildMetaverse";
+import P2eGames from "../pages/Features/P2eGames";
+import DevelopWeb3 from "../pages/Features/DevelopWeb3";
 
 export default function Router() {
   return (
@@ -29,11 +34,31 @@ export default function Router() {
           path="/blog/ankr-s-enterprise-rpc-and-app-chain-solutions-now-available-on-microsoft-azure-marketplace/"
           element={<BlogDetails />}
         />
-        <Route path="build-dapps" element={<BuildDapps />} />
+        <Route
+          path="features/decentralized-applications-dapps-on-trush"
+          element={<BuildDapps />}
+        />
         <Route path="faq" element={<Faq />} />
         <Route
           path="/features/trush-in-decentralized-finance-defi"
           element={<BuildDefi />}
+        />
+        <Route
+          path="/features/trush-and-non-fungible-tokens-nfts"
+          element={<MakeNft />}
+        />
+        <Route
+          path="/features/decentralized-exchanges-dexs-on-trush"
+          element={<CreateDex />}
+        />
+        <Route
+          path="/features/trush-and-the-metaverse"
+          element={<BuildMetaverse />}
+        />
+        <Route path="/features/gaming-on-trush" element={<P2eGames />} />
+        <Route
+          path="/features/cross-chain-interoperability-with-trush"
+          element={<DevelopWeb3 />}
         />
       </Routes>
     </BrowserRouter>
