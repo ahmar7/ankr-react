@@ -74,9 +74,9 @@ const Network = () => {
                   <path
                     d="M6 6l12 12M6 18L18 6"
                     stroke="#356DF3"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="square"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               ) : (
@@ -131,9 +131,9 @@ const Network = () => {
                   <path
                     d="M6 6l12 12M6 18L18 6"
                     stroke="#356DF3"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="square"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               ) : (
@@ -191,9 +191,9 @@ const Network = () => {
                   <path
                     d="M6 6l12 12M6 18L18 6"
                     stroke="#356DF3"
-                    stroke-width="2"
-                    stroke-linecap="square"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="square"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               ) : (

@@ -32,9 +32,9 @@ const AccordionItem = ({ faq, onToggle, active }) => {
             <path
               d="M19 12H5M12 19V5"
               stroke="#356DF3"
-              stroke-width="2"
-              stroke-linecap="square"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="square"
+              strokeLinejoin="round"
             ></path>
           </svg>
         )}

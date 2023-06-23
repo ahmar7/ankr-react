@@ -1,6 +1,5 @@
 import React from "react";
 import "./Banner.css";
-import "../NodeProvider.css";
 const Banner = () => {
   return (
     <section className="MuiPaper-root njss164 MuiPaper-elevation0">

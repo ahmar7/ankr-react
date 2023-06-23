@@ -530,15 +530,15 @@ const Footer = () => {
                         viewBox="1 -3 17 13"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        class="block text-inherit !m-0 w-full h-full"
+                        className="block text-inherit !m-0 w-full h-full"
                       >
-                        <g clip-path="url(#clip0_394_7705)">
+                        <g clipPath="url(#clip0_394_7705)">
                           <path
                             d="M9.2999 1.97635L14.0139 1.97635M14.0139 1.97635L14.0139 6.6904M14.0139 1.97635L8.35709 7.63321"
                             stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           ></path>
                         </g>
                         <defs>

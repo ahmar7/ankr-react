@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "TT Firs Neue";
   src: url("../../assets/font/TT\ Firs\ Neue\ Trial\ Regular.ttf") format("ttf");
   font-weight: 300;
@@ -12,7 +12,7 @@
   font-family: "TT Firs Neue";
   src: url("../../assets/font/TT\ Firs\ Neue\ Trial\ Medium.ttf") format("ttf");
   font-weight: 400;
-}
+} */
 
 .__packageName__-__packageName__-jss111 {
   height: 100%;
@@ -1256,8 +1256,7 @@
   box-shadow: none !important;
   background-color: white;
 }
-.no-shadow header{
-  
+.no-shadow header {
   background-color: white;
 }
 .MuiContainer-root-1268 {
